@@ -9,6 +9,10 @@
 /* ================================================================================ */
 
 /**
+ * Solution 1. fast-slow pointers: O(n)
+ */
+
+/**
  * @param {ListNode} node
  * @return {ListNode}
  */
