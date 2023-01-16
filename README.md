@@ -14,10 +14,11 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 > Bold font indicates those problems are in the list of [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions).
 
 Linked List:
-* [21. **Merge Two Sorted Lists** (Easy)](https://leetcode.com/problems/merge-two-sorted-lists/)
-* [141. **Linked List Cycle** (Easy)](https://leetcode.com/problems/linked-list-cycle/)
-* [143. **Reorder List** (Medium)](https://leetcode.com/problems/reorder-list/)
-* [206. **Reverse Linked List** (Easy)](https://leetcode.com/problems/reverse-linked-list/)
+* 19. [**Remove Nth Node From End of List**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) (Medium)
+* 21. [**Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/) (Easy)
+* 141. [**Linked List Cycle**](https://leetcode.com/problems/linked-list-cycle/) (Easy)
+* 143. [**Reorder List**](https://leetcode.com/problems/reorder-list/) (Medium)
+* 206. [**Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/) (Easy)
 
 ## Further Readings:
 

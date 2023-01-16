@@ -1,14 +1,17 @@
 /**
- * Solution 1. O(n1 + n2)
- */
-
-/**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
  *     this.val = (val===undefined ? 0 : val)
  *     this.next = (next===undefined ? null : next)
  * }
  */
+
+/* ================================================================================ */
+
+/**
+ * Solution 1. O(n1 + n2)
+ */
+
 /**
  * @param {ListNode} list1
  * @param {ListNode} list2
