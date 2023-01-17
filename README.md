@@ -14,13 +14,15 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 > Bold font indicates those problems are in the list of [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions).
 
 Linked List:
-* 19. [**Remove Nth Node From End of List**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) (Medium)
-* 21. [**Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/) (Easy)
-* 141. [**Linked List Cycle**](https://leetcode.com/problems/linked-list-cycle/) (Easy)
-* 143. [**Reorder List**](https://leetcode.com/problems/reorder-list/) (Medium)
-* 206. [**Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/) (Easy)
+* 19\. [**Remove Nth Node From End of List**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) (Medium)
+* 21\. [**Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/) (Easy)
+* 23\. [**Merge k Sorted Lists**](https://leetcode.com/problems/merge-k-sorted-lists/) (Hard)
+* 141\. [**Linked List Cycle**](https://leetcode.com/problems/linked-list-cycle/) (Easy)
+* 143\. [**Reorder List**](https://leetcode.com/problems/reorder-list/) (Medium)
+* 206\. [**Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/) (Easy)
 
 ## Further Readings:
 
-* [Adrian Mejia Blog - 8 time complexities that every programmer should know!](https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/)
-* [Big-O Cheat Sheet - Know Thy Complexities!](https://www.bigocheatsheet.com/)
+* [8 time complexities that every programmer should know! - Adrian Mejia Blog](https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/)
+* [Know Thy Complexities! - Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
