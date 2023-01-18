@@ -1,5 +1,42 @@
 /* =========================================================
-=       Solution 1. Manacher's algorithm: O(n)             =
+=       Solution 1. two pointers: O(n)                     =
+========================================================= */
+
+/**
+ * @param {string} s
+ * @return {string}
+ */
+const palindrome = (s, left, right) => {
+    while (left >= 0 && right < s.length && s[left] === s[right]) {
+        --left;
+        ++right;
+    }
+
+    return s.slice(left + 1, right);
+}
+
+/**
+ * @param {string} s
+ * @param {string} seperator
+ * @return {string}
+ */
+const longestPalindrome = (s) => {
+    let s1;
+    let s2;
+    let result = '';
+
+    for (let i = 0; i < s.length; ++i) {
+        s1 = palindrome(s, i, i);
+        s2 = palindrome(s, i, i + 1);
+        result = (result.length > s1.length) ? result : s1;
+        result = (result.length > s2.length) ? result : s2;
+    }
+
+    return result;
+}
+
+/* =========================================================
+=       Solution 2. Manacher's algorithm: O(n)             =
 ========================================================= */
 
 /**
