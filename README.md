@@ -36,10 +36,16 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 206\. [**Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/) (Easy)
 * 876\. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)
 
+**Tree:**
+* 104\. [**Maximum Depth of Binary Tree**](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (Easy)
+* 144\. [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (Easy)
+
 ## Further Readings:
 
 * [8 time complexities that every programmer should know! - Adrian Mejia Blog](https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/)
 * [Know Thy Complexities! - Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
 * [Grind 75 (by the author of Blind 75)](https://www.techinterviewhandbook.org/grind75)
 * [Best practice questions (by the author of Blind 75)](https://www.techinterviewhandbook.org/best-practice-questions/)
+* [演算法 - 國立台灣師範大學](https://web.ntnu.edu.tw/~algo/)
 * [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
