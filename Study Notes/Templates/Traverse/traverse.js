@@ -67,7 +67,7 @@ function traverse(root) {
 }
 
 /* =========================================================
-=       Binary Tree: Preorder, Inorder & Postorder         =
+=       Binary Tree: Pre-order, In-order & Post-order      =
 ========================================================= */
 
 class TreeNode {
@@ -79,9 +79,9 @@ class TreeNode {
 }
 
 function traverse(root) {
-    // preorder: root -> left -> right
+    // pre-order: root -> left -> right
     traverse(root.left);
-    // inorder: left -> root -> right
+    // in-order: left -> root -> right
     traverse(root.right);
-    // postorder: left -> right -> root
+    // post-order: left -> right -> root
 }
