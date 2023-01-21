@@ -1,5 +1,5 @@
 /* =========================================================
-=       Solution 1. Top-bottom with DP Table: O(n)         =
+=       Solution 1. top-bottom with dp table: O(n)         =
 ========================================================= */
 
 /**
@@ -48,7 +48,7 @@ const coinChange = (coins, amount) => {
 };
 
 /* =========================================================
-=       Solution 2. Bottom-top Base Case Iteration: O(kn)  =
+=       Solution 2. bottom-top base case iteration: O(kn)  =
 ========================================================= */
 
 /**
