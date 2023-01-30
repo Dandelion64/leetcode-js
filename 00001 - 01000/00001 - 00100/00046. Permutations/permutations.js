@@ -7,9 +7,9 @@
  * @return {number[][]}
  */
 const permute = (nums) => {
-    let result = [];
-    let track = [];
-    let used = new Array(nums.length);
+    const result = [];
+    const track = [];
+    const used = new Array(nums.length);
 
     /**
      * @param {number[]} nums
@@ -51,8 +51,8 @@ const permute = (nums) => {
  * @return {number[][]}
  */
 const permute = (nums) => {
-    let result = [];
-    let track = [];
+    const result = [];
+    const track = [];
 
     /**
      * @param {number[]} nums
