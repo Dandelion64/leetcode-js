@@ -6,7 +6,7 @@ let result = [];
 
 function backtrack(tracks, choices) {
     if (endingCondition) {
-        result.add(track);
+        result.add(tracks);
         return;
     }
 
@@ -16,7 +16,9 @@ function backtrack(tracks, choices) {
         choices.remove(choice)
         tracks.add(choice)
         */
-        backtrack(track, choices);
+
+        backtrack(tracks, choices);
+
         deselect();
         /*
         tracks.remove(choice)

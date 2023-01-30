@@ -1,6 +1,6 @@
-# Backtracking:
+# Backtracking (DFS, Depth First Search):
 
-Backtracking is similar with DFS. The difference between them is that backtracking traverses _branchs_ while DFS traverses _nodes_.
+Backtracking is similar with DFS. The difference between them is that backtracking traverses _branches_ while DFS traverses _nodes_.
 
 To solve backtracking problems, you just need to consider the subproblems:
 * track, the choice or decision made.
@@ -19,6 +19,36 @@ In figure II you can see:
 ![Backtracking fig. III](https://labuladong.github.io/algo/images/backtracking/3.jpg)
 
 The template of backtracking:
+
+``` js
+// pseudo code
+
+let result = [];
+
+function backtrack(tracks, choices) {
+    if (endingCondition) {
+        result.add(tracks);
+        return;
+    }
+
+    for (let choice of choices) {
+        select();
+        /*
+        choices.remove(choice)
+        tracks.add(choice)
+        */
+
+        backtrack(tracks, choices);
+
+        deselect();
+        /*
+        tracks.remove(choice)
+        choices.add(choice)
+        */
+    }
+}
+
+```
 
 ``` js
 let result = [];

@@ -20,7 +20,6 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **Array:**
 * 26\. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Easy)
 * 27\. [Remove Element](https://leetcode.com/problems/remove-element/) (Easy)
-* 46\. [Permutations](https://leetcode.com/problems/permutations/) (Medium)
 * 167\. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medium)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
@@ -48,6 +47,22 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **Dynamic Programming:**
 * 322\. [**_Coin Change_**](https://leetcode.com/problems/coin-change/) (Medium)
 * 509\. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (Easy)
+* 1137\. [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) (Easy)
+
+**Breadth-First-Search (BFS):**
+* 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
+* 752\. [Open the Lock](https://leetcode.com/problems/open-the-lock/) (Medium)
+
+**Backtracking (DFS):**
+* 39\. [**_Combination Sum_**](https://leetcode.com/problems/combination-sum/) (Medium)
+* 40\. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) (Medium)
+* 46\. [Permutations](https://leetcode.com/problems/permutations/) (Medium)
+* 47\. [Permutations II](https://leetcode.com/problems/permutations-ii/) (Medium)
+* 51\. [N-Queens](https://leetcode.com/problems/n-queens/) (Hard)
+* 52\. [N-Queens II](https://leetcode.com/problems/n-queens-ii/) (Hard)
+* 77\. [Combinations](https://leetcode.com/problems/combinations/) (Medium)
+* 78\. [Subsets](https://leetcode.com/problems/subsets/) (Medium)
+* 90\. [Subsets II](https://leetcode.com/problems/subsets-ii/) (Medium)
 
 ## Further Readings:
 
