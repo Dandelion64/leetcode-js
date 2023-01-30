@@ -21,7 +21,8 @@ const permute = (nums) => {
         const n = nums.length;
 
         if (track.length === n) {
-            return result.push([...track]);
+            result.push([...track]);
+            return;
         }
 
         for (let i = 0; i < n; ++i) {
@@ -59,12 +60,13 @@ const permute = (nums) => {
      * @param {number[]} track
      * @return {number[][]}
      */
-    const backtrack = (nums, track) => {
+    const backtrack = (nums) => {
         const n = nums.length;
 
         if (track.length === n) {
             // slice() return a new array
-            return result.push(track.slice());
+            result.push(track.slice());
+            return;
         }
 
         for (let i = 0; i < n; ++i){
@@ -73,12 +75,12 @@ const permute = (nums) => {
             }
 
             track.push(nums[i]);
-            backtrack(nums, track);
+            backtrack(nums);
             track.pop();
         }
     }
 
-    backtrack(nums, track);
+    backtrack(nums);
 
     return result;
 };
