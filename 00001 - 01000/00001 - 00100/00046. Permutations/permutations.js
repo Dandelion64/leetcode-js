@@ -79,5 +79,6 @@ const permute = (nums) => {
     }
 
     backtrack(nums, track);
+
     return result;
 };
