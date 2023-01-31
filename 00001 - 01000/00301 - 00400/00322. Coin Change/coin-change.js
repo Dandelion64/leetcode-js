@@ -48,7 +48,7 @@ const coinChange = (coins, amount) => {
 };
 
 /* =========================================================
-=       Solution 2. bottom-top base case iteration: O(kn)  =
+=       Solution 2. bottom-top dp iteration: O(kn)         =
 ========================================================= */
 
 /**
@@ -63,6 +63,7 @@ const coinChange = (coins, amount) => {
 
     let dp = new Array(amount + 1).fill(Infinity);
 
+    // base case
     dp[0] = 0;
 
     for (let i = 0; i < coins.length; ++i) {

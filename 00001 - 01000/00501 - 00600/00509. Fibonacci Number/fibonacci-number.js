@@ -31,7 +31,7 @@ const fib = (n) => {
 };
 
 /* =========================================================
-=       Solution 2. bottom-top base case iteration: O(n)   =
+=       Solution 2. bottom-top dp iteration: O(n)          =
 ========================================================= */
 
 /**
@@ -43,6 +43,7 @@ const fib = (n) => {
         return n;
     }
 
+    // base case
     let dpPrevFirst = 0;
     let dpPrevSecond = 1;
 

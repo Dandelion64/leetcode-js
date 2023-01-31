@@ -1,5 +1,5 @@
 /* =========================================================
-=       Solution 1. bottom-top base case iteration: O(n)   =
+=       Solution 1. bottom-top dp iteration: O(n)          =
 ========================================================= */
 
 /**
@@ -15,6 +15,7 @@ const tribonacci = (n) => {
         return 1;
     }
 
+    // base case
     let dpPrevFirst = 0;
     let dpPrevSecond = 1;
     let dpPrevThird = 1;
