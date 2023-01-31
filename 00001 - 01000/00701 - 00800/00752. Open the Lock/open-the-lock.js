@@ -129,6 +129,10 @@ const openLock = (deadends, target) => {
     let step = 0;
 
     while (queueOne.size && queueTwo.size) {
+        if (queueOne.size > queueTwo.size) {
+            [queueOne, queueTwo] = [queueTwo, queueOne];
+        }
+
         let temp = new Set();
 
         for (let cur of queueOne) {
