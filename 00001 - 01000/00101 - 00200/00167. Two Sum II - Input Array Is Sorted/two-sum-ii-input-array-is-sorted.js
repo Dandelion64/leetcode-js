@@ -24,5 +24,5 @@ const twoSum = (numbers, target) => {
         }
     }
 
-    return [-1, -1];
+    return [-1, -1]; // exactly one answer exists
 };
