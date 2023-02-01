@@ -7,26 +7,10 @@
  */
 
 /* =========================================================
-=       Solution 1. iteration: O(n)                        =
+=       Solution 1.v1. recursion: O(n)                     =
 ========================================================= */
 
-/**
- * @param {ListNode} head
- * @return {ListNode}
- */
-const reverseList = (head) => {
-	let prev = null;
-
-	while (head) {
-		[head.next, prev, head] = [prev, head, head.next];
-	}
-
-	return prev;
-};
-
-/* =========================================================
-=       Solution 2. recursion: O(n)                        =
-========================================================= */
+// slow
 
 /**
  * @param {ListNode} head
@@ -41,4 +25,44 @@ const reverseList = (head, prev = null) => {
 	head.next = prev;
 
 	return reverseList(next, head);
+};
+
+/* =========================================================
+=       Solution 1.v2. recursion: O(n)                     =
+========================================================= */
+
+// slow
+
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+const reverseList = (head) => {
+    if (head === null || head.next === null) {
+        return head;
+    }
+
+    const last = reverseList(head.next);
+    head.next.next = head;
+    head.next = null;
+
+    return last;
+}
+
+/* =========================================================
+=       Solution 2. iteration: O(n)                        =
+========================================================= */
+
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+const reverseList = (head) => {
+	let prev = null;
+
+	while (head) {
+		[head.next, prev, head] = [prev, head, head.next];
+	}
+
+	return prev;
 };

@@ -14,14 +14,18 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 > Bold italic font indicates those problems are in the list of [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions).
 
 **String:**
-* 3\. [**_Longest Substring Without Repeating Characters_**](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) _(Medium)_
+* 3\. [**_Longest Substring Without Repeating Characters_**](https://leetcode.com/problems/longest-substring-without-repeating-characters/) _(Medium)_
 * 5\. [**_Longest Palindromic Substring_**](https://leetcode.com/problems/longest-palindromic-substring/) _(Medium)_
 * 76\. [**_Minimum Window Substring_**](https://leetcode.com/problems/minimum-window-substring/) _(Hard)_
 * 125\. [**_Valid Palindrome_**](https://leetcode.com/problems/valid-palindrome/) _(Easy)_
 * 438\. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (Medium)
 * 567\. [Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Medium)
+* 1071\. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) (Easy)
 
 **Array:**
+* 1\. [**_Two Sum_**](https://leetcode.com/problems/two-sum/) _(Easy)_
+* 15\. [**_3Sum_**](https://leetcode.com/problems/3sum/) _(Medium)_
+* 18\. [4Sum](https://leetcode.com/problems/4sum/) (Medium)
 * 26\. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Easy)
 * 27\. [Remove Element](https://leetcode.com/problems/remove-element/) (Easy)
 * 34\. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medium)
@@ -37,6 +41,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 23\. [**_Merge k Sorted Lists_**](https://leetcode.com/problems/merge-k-sorted-lists/) _(Hard)_
 * 83\. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) (Easy)
 * 86\. [Partition List](https://leetcode.com/problems/partition-list/) (Medium)
+* 92\. [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) (Medium)
 * 138\. [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) (Medium)
 * 141\. [**_Linked List Cycle_**](https://leetcode.com/problems/linked-list-cycle/) _(Easy)_
 * 143\. [**_Reorder List_**](https://leetcode.com/problems/reorder-list/) _(Medium)_
@@ -70,8 +75,11 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 122\. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) (Medium)
 * 123\. [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) (Hard)
 * 188\. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) (Hard)
-* 309\. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) (Medium)
+* 198\. [House Robber](https://leetcode.com/problems/house-robber/) (Medium)
+* 213\. [House Robber II](https://leetcode.com/problems/house-robber-ii/) (Medium)
+* 309\. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) (Medium)
 * 322\. [**_Coin Change_**](https://leetcode.com/problems/coin-change/) _(Medium)_
+* 337\. [House Robber III](https://leetcode.com/problems/house-robber-iii/) (Medium)
 * 509\. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (Easy)
 * 714\. [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) (Medium)
 * 1137\. [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) (Easy)
