@@ -23,15 +23,15 @@ const maxProfit = (prices) => {
                 continue;
             }
 
-            dp[i][k - 1][0] = Math.max(dp[i - 1][k - 1][0], dp[i - 1][k - 1][1] + prices[i]);
-
             if (k - 2 === -1) {
                 // base case
+                dp[i][k - 1][0] = Math.max(dp[i - 1][k - 1][0], dp[i - 1][k - 1][1] + prices[i]);
                 dp[i][k - 1][1] = Math.max(dp[i - 1][k - 1][1], -prices[i]);
-            } else {
-                dp[i][k - 1][1] = Math.max(dp[i - 1][k - 1][1], dp[i - 1][k - 2][0] - prices[i]);
+                continue;
             }
 
+            dp[i][k - 1][0] = Math.max(dp[i - 1][k - 1][0], dp[i - 1][k - 1][1] + prices[i]);
+            dp[i][k - 1][1] = Math.max(dp[i - 1][k - 1][1], dp[i - 1][k - 2][0] - prices[i]);
         }
     }
 

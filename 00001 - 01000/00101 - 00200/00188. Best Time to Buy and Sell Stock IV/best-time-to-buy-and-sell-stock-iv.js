@@ -43,14 +43,16 @@ const maxProfit = (k, prices) => {
                 continue;
             }
 
-            dp[i][j - 1][0] = Math.max(dp[i - 1][j - 1][0], dp[i - 1][j - 1][1] + prices[i]);
 
             if (j - 2 === -1) {
                 // base case
+                dp[i][j - 1][0] = Math.max(dp[i - 1][j - 1][0], dp[i - 1][j - 1][1] + prices[i]);
                 dp[i][j - 1][1] = Math.max(dp[i - 1][j - 1][1], -prices[i]);
-            } else {
-                dp[i][j - 1][1] = Math.max(dp[i - 1][j - 1][1], dp[i - 1][j - 2][0] - prices[i]);
+                continue;
             }
+
+            dp[i][j - 1][0] = Math.max(dp[i - 1][j - 1][0], dp[i - 1][j - 1][1] + prices[i]);
+            dp[i][j - 1][1] = Math.max(dp[i - 1][j - 1][1], dp[i - 1][j - 2][0] - prices[i]);
         }
     }
 
