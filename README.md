@@ -33,12 +33,14 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
 * 704\. [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)
+* 953\. [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (Easy)
 * 992\. [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (Hard)
 
 **Linked List:**
 * 19\. [**_Remove Nth Node From End of List_**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) _(Medium)_
 * 21\. [**_Merge Two Sorted Lists_**](https://leetcode.com/problems/merge-two-sorted-lists/) _(Easy)_
 * 23\. [**_Merge k Sorted Lists_**](https://leetcode.com/problems/merge-k-sorted-lists/) _(Hard)_
+* 25\. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) (Hard)
 * 83\. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) (Easy)
 * 86\. [Partition List](https://leetcode.com/problems/partition-list/) (Medium)
 * 92\. [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) (Medium)
@@ -47,6 +49,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 143\. [**_Reorder List_**](https://leetcode.com/problems/reorder-list/) _(Medium)_
 * 160\. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) (Easy)
 * 206\. [**_Reverse Linked List_**](https://leetcode.com/problems/reverse-linked-list/) _(Easy)_
+* 234\. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) (Easy)
 * 876\. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)
 
 **Tree:**
@@ -58,6 +61,10 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
 * 752\. [Open the Lock](https://leetcode.com/problems/open-the-lock/) (Medium)
+
+**Prefix Sum:**
+* 303\. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (Easy)
+* 304\. [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) (Medium)
 
 **Backtracking (DFS):**
 * 39\. [**_Combination Sum_**](https://leetcode.com/problems/combination-sum/) _(Medium)_
