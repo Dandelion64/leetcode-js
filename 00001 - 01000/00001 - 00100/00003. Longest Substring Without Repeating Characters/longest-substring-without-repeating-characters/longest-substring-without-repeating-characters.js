@@ -7,28 +7,26 @@
  * @return {number}
  */
 const lengthOfLongestSubstring = (s) => {
-    const window = {};
-    let start = 0;
-    let end = 0;
-    let result = 0;
+	const window = {};
+	let start = 0, end = 0;
+	let result = 0;
 
-    while (end < s.length) {
-        window[s[end]] = (window[s[end]]) ? ++window[s[end]] : 1;
+	while (end < s.length) {
+		window[s[end]] = window[s[end]] ? ++window[s[end]] : 1;
 
-        while (window[s[end]] > 1) {
-            --window[s[start]];
+		while (window[s[end]] > 1) {
+			--window[s[start]];
 
-            ++start;
-        }
+			++start;
+		}
 
-        ++end;
+		++end;
 
-        result = Math.max(result, end - start);
+		result = Math.max(result, end - start);
+	}
 
-    }
-
-    return result;
-}
+	return result;
+};
 
 /* =========================================================
 =       Solution 1.v2. sliding window: O(n)                =
@@ -39,26 +37,24 @@ const lengthOfLongestSubstring = (s) => {
  * @return {number}
  */
 const lengthOfLongestSubstring = (s) => {
-    const charactersSet = new Set();
+	const charactersSet = new Set();
+	let start = 0, end = 0;
+	let length = 0;
 
-    let start = 0;
-    let end = 0;
-    let length = 0;
+	while (end < s.length) {
+		while (charactersSet.has(s[end])) {
+			charactersSet.delete(s[start]);
+			++start;
+		}
 
-    while (end < s.length) {
-        while (charactersSet.has(s[end])) {
-            charactersSet.delete(s[start]);
-            ++start;
-        }
+		charactersSet.add(s[end]);
+		length = Math.max(length, end - start + 1);
 
-        charactersSet.add(s[end]);
-        length = Math.max(length, end - start + 1);
+		++end;
+	}
 
-        ++end;
-    }
-
-    return length;
-}
+	return length;
+};
 
 /* =========================================================
 =       Solution 2. array: O(n)                            =
@@ -71,19 +67,19 @@ const lengthOfLongestSubstring = (s) => {
  * @return {number}
  */
 const lengthOfLongestSubstring = (s) => {
-    let currentSubstring = [];
-    let length = 0;
+	const currentSubstring = [];
+	let length = 0;
 
-    for (let i = 0; i < s.length; ++i) {
-        const currentCharacterIndex = currentSubstring.indexOf(s[i]);
+	for (let i = 0; i < s.length; ++i) {
+		const currentCharacterIndex = currentSubstring.indexOf(s[i]);
 
-        if (currentCharacterIndex !== -1) {
-            currentSubstring.splice(0, currentCharacterIndex + 1);
-        }
+		if (currentCharacterIndex !== -1) {
+			currentSubstring.splice(0, currentCharacterIndex + 1);
+		}
 
-        currentSubstring.push(s[i]);
-        length = Math.max(length, currentSubstring.length)
-    }
+		currentSubstring.push(s[i]);
+		length = Math.max(length, currentSubstring.length);
+	}
 
-    return length;
+	return length;
 };

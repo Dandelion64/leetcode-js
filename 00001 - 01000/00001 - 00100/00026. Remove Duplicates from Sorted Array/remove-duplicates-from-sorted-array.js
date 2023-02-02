@@ -7,22 +7,21 @@
  * @return {number}
  */
 const removeDuplicates = (nums) => {
-    const n = nums.length;
+	const n = nums.length;
 
-    if (n === 0) {
-        return 0;
-    }
+	if (n === 0) {
+		return 0;
+	}
 
-    let slow = 0;
-    let fast = 0;
+	let slow = 0, fast = 0;
 
-    while (fast < n) {
-        if (nums[fast] !== nums[slow]) {
-            nums[++slow] = nums[fast];
-        }
+	while (fast < n) {
+		if (nums[fast] !== nums[slow]) {
+			nums[++slow] = nums[fast];
+		}
 
-        ++fast;
-    }
+		++fast;
+	}
 
-    return slow + 1;
+	return slow + 1;
 };

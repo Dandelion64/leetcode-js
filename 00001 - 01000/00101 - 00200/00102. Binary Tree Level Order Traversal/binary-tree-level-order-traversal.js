@@ -16,41 +16,41 @@
  * @return {number[][]}
  */
 const levelOrder = (root) => {
-    if (root === null) {
-        return [];
-    }
+	if (root === null) {
+		return [];
+	}
 
-    let result = [];
-    let stack = [[root]];
-    let curNodes;
+	const result = [];
+	const stack = [[root]];
+	let curNodes;
 
-    while (stack.length) {
-        let curLevel = [];
-        let curChilds = [];
+	while (stack.length) {
+		let curLevel = [];
+		let curChilds = [];
 
-        curNodes = stack.pop();
+		curNodes = stack.pop();
 
-        for (let i = 0; i < curNodes.length; ++i) {
-            curLevel.push(curNodes[i].val);
+		for (let i = 0; i < curNodes.length; ++i) {
+			curLevel.push(curNodes[i].val);
 
-            if (curNodes[i].left) {
-                curChilds.push(curNodes[i].left);
-            }
+			if (curNodes[i].left) {
+				curChilds.push(curNodes[i].left);
+			}
 
-            if (curNodes[i].right) {
-                curChilds.push(curNodes[i].right);
-            }
-        }
+			if (curNodes[i].right) {
+				curChilds.push(curNodes[i].right);
+			}
+		}
 
-        result.push(curLevel);
+		result.push(curLevel);
 
-        if (curChilds.length) {
-            stack.push(curChilds);
-        }
-    }
+		if (curChilds.length) {
+			stack.push(curChilds);
+		}
+	}
 
-    return result;
-}
+	return result;
+};
 
 /* =========================================================
 =       Solution 2. queue iteration: O(n)                  =
@@ -61,33 +61,33 @@ const levelOrder = (root) => {
  * @return {number[][]}
  */
 const levelOrder = (root) => {
-    if (root === null) {
-        return [];
-    }
+	if (root === null) {
+		return [];
+	}
 
-    let result = [];
-    let queue = [root];
-    let curNode;
+	const result = [];
+	const queue = [root];
+	let curNode;
 
-    while (queue.length) {
-        let curLevel = [];
-        const n = queue.length
+	while (queue.length) {
+		let curLevel = [];
+		const n = queue.length;
 
-        for (let i = 0; i < n; ++i) {
-            curNode = queue.shift();
-            curLevel.push(curNode.val);
+		for (let i = 0; i < n; ++i) {
+			curNode = queue.shift();
+			curLevel.push(curNode.val);
 
-            if (curNode.left) {
-                queue.push(curNode.left);
-            }
+			if (curNode.left) {
+				queue.push(curNode.left);
+			}
 
-            if (curNode.right) {
-                queue.push(curNode.right);
-            }
-        }
+			if (curNode.right) {
+				queue.push(curNode.right);
+			}
+		}
 
-        result.push(curLevel);
-    }
+		result.push(curLevel);
+	}
 
-    return result;
-}
+	return result;
+};

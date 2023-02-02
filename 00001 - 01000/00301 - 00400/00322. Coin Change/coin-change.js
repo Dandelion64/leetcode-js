@@ -8,43 +8,43 @@
  * @return {number}
  */
 const coinChange = (coins, amount) => {
-    let memoSet = {};
+	const memoSet = {};
 
-    /**
-     * @param {number[]} coins
-     * @param {number} amount
-     * @param {object} memo
-     * @return {number}
-     */
-    const dp = (coins, amount, memo) => {
-        if (amount === 0) {
-            return 0;
-        }
+	/**
+	 * @param {number[]} coins
+	 * @param {number} amount
+	 * @param {object} memo
+	 * @return {number}
+	 */
+	const dp = (coins, amount, memo) => {
+		if (amount === 0) {
+			return 0;
+		}
 
-        if (amount < 0) {
-            return -1;
-        }
+		if (amount < 0) {
+			return -1;
+		}
 
-        if (memo[amount]) {
-            return memo[amount];
-        }
+		if (memo[amount]) {
+			return memo[amount];
+		}
 
-        let count = Infinity;
-        let tmp;
+		let count = Infinity;
+		let tmp;
 
-        for (let i = 0; i < coins.length; ++i) {
-            tmp = dp(coins, amount - coins[i], memo);
-            if (tmp !== -1) {
-                count = Math.min(count, tmp + 1);
-            }
-        }
+		for (let i = 0; i < coins.length; ++i) {
+			tmp = dp(coins, amount - coins[i], memo);
+			if (tmp !== -1) {
+				count = Math.min(count, tmp + 1);
+			}
+		}
 
-        memo[amount] = (count === Infinity) ? -1 : count;
+		memo[amount] = count === Infinity ? -1 : count;
 
-        return memo[amount];
-    }
+		return memo[amount];
+	};
 
-    return dp(coins, amount, memoSet);
+	return dp(coins, amount, memoSet);
 };
 
 /* =========================================================
@@ -57,20 +57,20 @@ const coinChange = (coins, amount) => {
  * @return {number}
  */
 const coinChange = (coins, amount) => {
-    if (amount === 0) {
-        return 0
-    };
+	if (amount === 0) {
+		return 0;
+	}
 
-    let dp = new Array(amount + 1).fill(Infinity);
+	let dp = new Array(amount + 1).fill(Infinity);
 
-    // base case
-    dp[0] = 0;
+	// base case
+	dp[0] = 0;
 
-    for (let i = 0; i < coins.length; ++i) {
-        for (let j = coins[i]; j <= amount; ++j) {
-            dp[j] = Math.min(dp[j], dp[j - coins[i]] + 1);
-        }
-    }
+	for (let i = 0; i < coins.length; ++i) {
+		for (let j = coins[i]; j <= amount; ++j) {
+			dp[j] = Math.min(dp[j], dp[j - coins[i]] + 1);
+		}
+	}
 
-    return (dp[amount] === Infinity) ? -1 : dp[amount];
+	return dp[amount] === Infinity ? -1 : dp[amount];
 };

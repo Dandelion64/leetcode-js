@@ -15,16 +15,16 @@
  * @return {ListNode}
  */
 const movePointer = (node) => {
-    return node.next;
-}
+	return node.next;
+};
 
 /**
  * @param {ListNode} node
  * @return {ListNode}
  */
 const appendNode = (node1, node2) => {
-    node1.next = node2;
-}
+	node1.next = node2;
+};
 
 /**
  * @param {ListNode} head
@@ -32,31 +32,29 @@ const appendNode = (node1, node2) => {
  * @return {ListNode}
  */
 const partition = (head, x) => {
-    if (head === null || head.next === null) {
-        return head;
-    }
+	if (head === null || head.next === null) {
+		return head;
+	}
 
-    const dummyHeadLow = new ListNode(0);
-    const dummyHeadHigh = new ListNode(0);
-    let cur = head;
-    let curLow = dummyHeadLow;
-    let curHigh = dummyHeadHigh;
+	const dummyHeadLow = new ListNode(0);
+	const dummyHeadHigh = new ListNode(0);
+	let cur = head, curLow = dummyHeadLow, curHigh = dummyHeadHigh;
 
-    while (cur) {
-        if (cur.val < x) {
-            appendNode(curLow, cur);
-            curLow = movePointer(curLow);
-        } else {
-            appendNode(curHigh, cur);
-            curHigh = movePointer(curHigh);
-        }
+	while (cur) {
+		if (cur.val < x) {
+			appendNode(curLow, cur);
+			curLow = movePointer(curLow);
+		} else {
+			appendNode(curHigh, cur);
+			curHigh = movePointer(curHigh);
+		}
 
-        const temp = cur.next;
-        cur.next = null;
-        cur = temp;
-    }
+		const temp = cur.next;
+		cur.next = null;
+		cur = temp;
+	}
 
-    appendNode(curLow, dummyHeadHigh.next);
+	appendNode(curLow, dummyHeadHigh.next);
 
-    return dummyHeadLow.next;
+	return dummyHeadLow.next;
 };

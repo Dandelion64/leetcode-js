@@ -15,20 +15,20 @@
  * @return {boolean}
  */
 const hasCycle = (head) => {
-    if (head === null || head.next === null) {
-        return false;
-    }
+	if (head === null || head.next === null) {
+		return false;
+	}
 
-    while (head) {
-        if (head.flag) {
-            return true;
-        }
+	while (head) {
+		if (head.flag) {
+			return true;
+		}
 
-        head.flag = true;
-        head = head.next;
-    }
+		head.flag = true;
+		head = head.next;
+	}
 
-    return false;
+	return false;
 };
 
 /* =========================================================
@@ -40,45 +40,45 @@ const hasCycle = (head) => {
  * @return {ListNode}
  */
 const moveSlow = (slow) => {
-    return slow.next;
-}
+	return slow.next;
+};
 
 /**
  * @param {ListNode} fast
  * @return {ListNode}
  */
 const moveFast = (fast) => {
-    return fast.next.next;
-}
+	return fast.next.next;
+};
 
 /**
  * @param {ListNode} head
  * @return {boolean}
  */
 const hasCycle = (head) => {
-    if (head === null || head.next === null) {
-        return false;
-    }
+	if (head === null || head.next === null) {
+		return false;
+	}
 
-    slow = moveSlow(head);
-    fast = moveFast(head);
+	slow = moveSlow(head);
+	fast = moveFast(head);
 
-    if (fast === null) {
-        return false;
-    }
+	if (fast === null) {
+		return false;
+	}
 
-    while (slow !== fast) {
-        if (fast.next === null) {
-            return false;
-        }
+	while (slow !== fast) {
+		if (fast.next === null) {
+			return false;
+		}
 
-        slow = moveSlow(slow);
-        fast = moveFast(fast);
+		slow = moveSlow(slow);
+		fast = moveFast(fast);
 
-        if (slow === null || fast === null) {
-            return false;
-        }
-    }
+		if (slow === null || fast === null) {
+			return false;
+		}
+	}
 
-    return true;
+	return true;
 };

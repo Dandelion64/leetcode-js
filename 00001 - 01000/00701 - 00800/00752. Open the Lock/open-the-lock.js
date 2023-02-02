@@ -8,12 +8,12 @@
  * @return {string}
  */
 const wheelUp = (string, index) => {
-    const chars = string.split('');
+	const chars = string.split('');
 
-    chars[index] = ++chars[index] % 10;
+	chars[index] = ++chars[index] % 10;
 
-    return chars.join('');
-}
+	return chars.join('');
+};
 
 /**
  * @param {string} string
@@ -21,12 +21,12 @@ const wheelUp = (string, index) => {
  * @return {string}
  */
 const wheelDown = (string, index) => {
-    const chars = string.split('');
+	const chars = string.split('');
 
-    chars[index] = (--chars[index] + 10) % 10;
+	chars[index] = (--chars[index] + 10) % 10;
 
-    return chars.join('');
-}
+	return chars.join('');
+};
 
 /**
  * @param {string[]} deadends
@@ -34,56 +34,56 @@ const wheelDown = (string, index) => {
  * @return {number}
  */
 const openLock = (deadends, target) => {
-    if (target === '0000') {
-        return 0;
-    }
+	if (target === '0000') {
+		return 0;
+	}
 
-    const deadendsSet = new Set(deadends);
+	const deadendsSet = new Set(deadends);
 
-    if (deadendsSet.has('0000')) {
-        return -1;
-    }
+	if (deadendsSet.has('0000')) {
+		return -1;
+	}
 
-    const queue = ['0000'];
-    const visited = new Set('0000');
-    let cur;
-    let step = 0;
+	const queue = ['0000'];
+	const visited = new Set('0000');
+	let cur;
+	let step = 0;
 
-    while (queue.length) {
-        const n = queue.length;
+	while (queue.length) {
+		const n = queue.length;
 
-        for (let i = 0; i < n; ++i) {
-            cur = queue.shift();
+		for (let i = 0; i < n; ++i) {
+			cur = queue.shift();
 
-            if (deadendsSet.has(cur)) {
-                continue;
-            }
+			if (deadendsSet.has(cur)) {
+				continue;
+			}
 
-            if (cur === target) {
-                return step;
-            }
+			if (cur === target) {
+				return step;
+			}
 
-            for (let j = 0; j < 4; ++j) {
-                const up = wheelUp(cur, j);
+			for (let j = 0; j < 4; ++j) {
+				const up = wheelUp(cur, j);
 
-                if (!visited.has(up)) {
-                    queue.push(up);
-                    visited.add(up);
-                }
+				if (!visited.has(up)) {
+					queue.push(up);
+					visited.add(up);
+				}
 
-                const down = wheelDown(cur, j);
+				const down = wheelDown(cur, j);
 
-                if (!visited.has(down)) {
-                    queue.push(down);
-                    visited.add(down);
-                }
-            }
-        }
+				if (!visited.has(down)) {
+					queue.push(down);
+					visited.add(down);
+				}
+			}
+		}
 
-        ++step;
-    }
+		++step;
+	}
 
-    return -1;
+	return -1;
 };
 
 /* =========================================================
@@ -96,12 +96,12 @@ const openLock = (deadends, target) => {
  * @return {string}
  */
 const wheelUp = (string, index) => {
-    const chars = string.split('');
+	const chars = string.split('');
 
-    chars[index] = ++chars[index] % 10;
+	chars[index] = ++chars[index] % 10;
 
-    return chars.join('');
-}
+	return chars.join('');
+};
 
 /**
  * @param {string} string
@@ -109,12 +109,12 @@ const wheelUp = (string, index) => {
  * @return {string}
  */
 const wheelDown = (string, index) => {
-    const chars = string.split('');
+	const chars = string.split('');
 
-    chars[index] = (--chars[index] + 10) % 10;
+	chars[index] = (--chars[index] + 10) % 10;
 
-    return chars.join('');
-}
+	return chars.join('');
+};
 
 /**
  * @param {string[]} deadends
@@ -122,48 +122,48 @@ const wheelDown = (string, index) => {
  * @return {number}
  */
 const openLock = (deadends, target) => {
-    const deadendsSet = new Set(deadends);
-    let queueOne = new Set(['0000']);
-    let queueTwo = new Set([target]);
-    const visited = new Set();
-    let step = 0;
+	const deadendsSet = new Set(deadends);
+	let queueOne = new Set(['0000']);
+	let queueTwo = new Set([target]);
+	const visited = new Set();
+	let step = 0;
 
-    while (queueOne.size && queueTwo.size) {
-        if (queueOne.size > queueTwo.size) {
-            [queueOne, queueTwo] = [queueTwo, queueOne];
-        }
+	while (queueOne.size && queueTwo.size) {
+		if (queueOne.size > queueTwo.size) {
+			[queueOne, queueTwo] = [queueTwo, queueOne];
+		}
 
-        let temp = new Set();
+		let temp = new Set();
 
-        for (let cur of queueOne) {
-            if (deadendsSet.has(cur)) {
-                continue;
-            }
+		for (let cur of queueOne) {
+			if (deadendsSet.has(cur)) {
+				continue;
+			}
 
-            if (queueTwo.has(cur)) {
-                return step;
-            }
+			if (queueTwo.has(cur)) {
+				return step;
+			}
 
-            visited.add(cur);
+			visited.add(cur);
 
-            for (let j = 0; j < 4; ++j) {
-                const up = wheelUp(cur, j);
+			for (let j = 0; j < 4; ++j) {
+				const up = wheelUp(cur, j);
 
-                if (!visited.has(up)) {
-                    temp.add(up);
-                }
+				if (!visited.has(up)) {
+					temp.add(up);
+				}
 
-                const down = wheelDown(cur, j);
+				const down = wheelDown(cur, j);
 
-                if (!visited.has(down)) {
-                    temp.add(down);
-                }
-            }
-        }
+				if (!visited.has(down)) {
+					temp.add(down);
+				}
+			}
+		}
 
-        ++step;
-        [queueOne, queueTwo] = [queueTwo, temp];
-    }
+		++step;
+		[queueOne, queueTwo] = [queueTwo, temp];
+	}
 
-    return -1;
+	return -1;
 };

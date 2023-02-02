@@ -10,35 +10,33 @@
  * @return {number}
  */
 const subarraysWithKDistinct = (nums, k) => {
-    const length = nums.length;
+	const length = nums.length;
 
-    /**
-     * @param {number} k
-     * @return {number}
-     */
-    const atMost = (k) => {
-        let [left, right, result] = [0, 0, 0];
-        const window = new Map();
-        const [frequency, increment, decrement] = [
-            (i) => window.get(nums[i]) || 0,
-            (i) => window.set(nums[i], frequency(i) + 1),
-            (i) => (frequency(i) === 1) ? window.delete(nums[i]) : window.set(nums[i], frequency(i) - 1),
-        ];
+	/**
+	 * @param {number} k
+	 * @return {number}
+	 */
+	const atMost = (k) => {
+		let [left, right, result] = [0, 0, 0];
+		const window = new Map();
+		const [frequency, increment, decrement] = [
+			(i) => window.get(nums[i]) || 0,
+			(i) => window.set(nums[i], frequency(i) + 1),
+			(i) => (frequency(i) === 1 ? window.delete(nums[i]) : window.set(nums[i], frequency(i) - 1)),
+		];
 
-        while (right < length) {
-            increment(right++);
+		while (right < length) {
+			increment(right++);
 
-            while (window.size > k) {
-                decrement(left++);
-            }
+			while (window.size > k) {
+				decrement(left++);
+			}
 
-            result += right - left;
-        }
+			result += right - left;
+		}
 
-        return result;
-    }
+		return result;
+	};
 
-    return atMost(k) - atMost(k - 1);
+	return atMost(k) - atMost(k - 1);
 };
-
-

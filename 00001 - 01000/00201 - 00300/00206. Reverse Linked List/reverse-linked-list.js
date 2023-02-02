@@ -38,16 +38,16 @@ const reverseList = (head, prev = null) => {
  * @return {ListNode}
  */
 const reverseList = (head) => {
-    if (head === null || head.next === null) {
-        return head;
-    }
+	if (head === null || head.next === null) {
+		return head;
+	}
 
-    const last = reverseList(head.next);
-    head.next.next = head;
-    head.next = null;
+	const last = reverseList(head.next);
+	head.next.next = head;
+	head.next = null;
 
-    return last;
-}
+	return last;
+};
 
 /* =========================================================
 =       Solution 2. iteration: O(n)                        =

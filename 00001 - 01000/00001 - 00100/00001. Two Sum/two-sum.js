@@ -8,17 +8,17 @@
  * @return {number[]}
  */
 const twoSum = (nums, target) => {
-    let indexObject = {};
+	const indexObject = {};
 
-    for (let i = 0; i < nums.length; ++i) {
-        const complement = target - nums[i];
+	for (let i = 0; i < nums.length; ++i) {
+		const complement = target - nums[i];
 
-        if (indexObject.hasOwnProperty(complement)) {
-            return [indexObject[complement], i];
-        }
+		if (indexObject.hasOwnProperty(complement)) {
+			return [indexObject[complement], i];
+		}
 
-        indexObject[nums[i]] = i;
-    }
+		indexObject[nums[i]] = i;
+	}
 };
 
 /* =========================================================
@@ -31,17 +31,17 @@ const twoSum = (nums, target) => {
  * @return {number[]}
  */
 const twoSum = (nums, target) => {
-    let indexMap = new Map();
+	const indexMap = new Map();
 
-    for (let i = 0; i < nums.length; ++i) {
-        const complement = target - nums[i];
+	for (let i = 0; i < nums.length; ++i) {
+		const complement = target - nums[i];
 
-        if (indexMap.has(complement)) {
-            return [indexMap.get(complement), i];
-        }
+		if (indexMap.has(complement)) {
+			return [indexMap.get(complement), i];
+		}
 
-        indexMap.set(nums[i], i);
-    }
+		indexMap.set(nums[i], i);
+	}
 };
 
 /* =========================================================
@@ -58,22 +58,23 @@ const twoSum = (nums, target) => {
  * @return {number[]}
  */
 const twoSum = (nums, target) => {
-    let sortedNums = nums.map((n) => n);
-    sortedNums = sortedNums.sort((a, b) => a - b);
+	let sortedNums = nums.map((n) => n);
 
-    let left = 0, right = sortedNums.length - 1, sum;
+	sortedNums = sortedNums.sort((a, b) => a - b);
 
-    while (left < right) {
-        sum = sortedNums[left] + sortedNums[right];
+	let left = 0, right = sortedNums.length - 1, sum;
 
-        if (sum === target) {
-            return [nums.indexOf(sortedNums[left]), nums.lastIndexOf(sortedNums[right])];
-        } else if (sum < target) {
-            ++left;
-        } else {
-            --right;
-        }
-    }
+	while (left < right) {
+		sum = sortedNums[left] + sortedNums[right];
 
-    return [-1, -1]; // exactly one answer exists
+		if (sum === target) {
+			return [nums.indexOf(sortedNums[left]), nums.lastIndexOf(sortedNums[right])];
+		} else if (sum < target) {
+			++left;
+		} else {
+			--right;
+		}
+	}
+
+	return [-1, -1]; // exactly one answer exists
 };

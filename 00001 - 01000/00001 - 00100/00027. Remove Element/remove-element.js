@@ -8,16 +8,15 @@
  * @return {number}
  */
 const removeElement = (nums, val) => {
-    let slow = 0;
-    let fast = 0;
+	let slow = 0, fast = 0;
 
-    while (fast < nums.length) {
-        if (nums[fast] !== val) {
-            nums[slow++] = nums[fast];
-        }
+	while (fast < nums.length) {
+		if (nums[fast] !== val) {
+			nums[slow++] = nums[fast];
+		}
 
-        ++fast;
-    }
+		++fast;
+	}
 
-    return slow;
+	return slow;
 };

@@ -15,29 +15,29 @@
  * @return {ListNode}
  */
 const moveSlow = (slow) => {
-    return slow.next;
-}
+	return slow.next;
+};
 
 /**
  * @param {ListNode} fast
  * @return {ListNode}
  */
 const moveFast = (fast) => {
-    return fast.next.next;
-}
+	return fast.next.next;
+};
 
 /**
  * @param {ListNode} head
  * @return {ListNode}
  */
 const middleNode = (head) => {
-    let slow = head;
-    let fast = head;
+	let slow = head;
+	let fast = head;
 
-    while (fast && fast.next) {
-        slow = moveSlow(slow);
-        fast = moveFast(fast);
-    }
+	while (fast && fast.next) {
+		slow = moveSlow(slow);
+		fast = moveFast(fast);
+	}
 
-    return slow;
+	return slow;
 };

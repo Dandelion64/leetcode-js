@@ -8,50 +8,50 @@
  * @return {boolean}
  */
 const checkInclusion = (s1, s2) => {
-    const dictionary = {};
-    const n = s1.length;
-    const m = s2.length;
+	const dictionary = {};
+	const n = s1.length;
+	const m = s2.length;
 
-    for (let i = 0; i < n; ++i) {
-        dictionary[s1[i]] = (dictionary[s1[i]]) ? ++dictionary[s1[i]] : 1;
-    }
+	for (let i = 0; i < n; ++i) {
+		dictionary[s1[i]] = dictionary[s1[i]] ? ++dictionary[s1[i]] : 1;
+	}
 
-    const o = Object.keys(dictionary).length;
+	const o = Object.keys(dictionary).length;
 
-    const window = {};
-    let start = 0;
-    let end = 0;
-    let validCount = 0;
+	const window = {};
+	let start = 0;
+	let end = 0;
+	let validCount = 0;
 
-    while (end < m) {
-        if (dictionary[s2[end]]) {
-            window[s2[end]] = (window[s2[end]]) ? ++window[s2[end]] : 1;
+	while (end < m) {
+		if (dictionary[s2[end]]) {
+			window[s2[end]] = window[s2[end]] ? ++window[s2[end]] : 1;
 
-            if (window[s2[end]] === dictionary[s2[end]]) {
-                ++validCount;
-            }
-        }
+			if (window[s2[end]] === dictionary[s2[end]]) {
+				++validCount;
+			}
+		}
 
-        ++end;
+		++end;
 
-        while (validCount === o) {
-            if (end - start === n) {
-                return true;
-            }
+		while (validCount === o) {
+			if (end - start === n) {
+				return true;
+			}
 
-            if (dictionary[s2[start]]) {
-                if (window[s2[start]] === dictionary[s2[start]]) {
-                    --validCount;
-                }
+			if (dictionary[s2[start]]) {
+				if (window[s2[start]] === dictionary[s2[start]]) {
+					--validCount;
+				}
 
-                --window[s2[start]];
-            }
+				--window[s2[start]];
+			}
 
-            ++start;
-        }
-    }
+			++start;
+		}
+	}
 
-    return false;
+	return false;
 };
 
 /* =========================================================
@@ -64,39 +64,37 @@ const checkInclusion = (s1, s2) => {
  * @return {boolean}
  */
 const checkInclusion = (s1, s2) => {
-    const dictionary = {};
-    const n = s1.length;
-    const m = s2.length;
+	const dictionary = {};
+	const n = s1.length;
+	const m = s2.length;
 
-    for (let i = 0; i < n; ++i) {
-        dictionary[s1[i]] = (dictionary[s1[i]]) ? ++dictionary[s1[i]] : 1;
-    }
+	for (let i = 0; i < n; ++i) {
+		dictionary[s1[i]] = dictionary[s1[i]] ? ++dictionary[s1[i]] : 1;
+	}
 
-    const o = Object.keys(dictionary).length;
+	const o = Object.keys(dictionary).length;
 
-    let start = 0;
-    let end = 0;
-    let matchCount = 0;
+	let start = 0, end = 0, matchCount = 0;
 
-    while (end < m) {
-        if (--dictionary[s2[end]] === 0) {
-            ++matchCount;
-        }
+	while (end < m) {
+		if (--dictionary[s2[end]] === 0) {
+			++matchCount;
+		}
 
-        while (matchCount === o) {
-            if (end - start + 1 === n) {
-                return true;
-            }
+		while (matchCount === o) {
+			if (end - start + 1 === n) {
+				return true;
+			}
 
-            if (++dictionary[s2[start]] > 0) {
-                --matchCount;
-            }
+			if (++dictionary[s2[start]] > 0) {
+				--matchCount;
+			}
 
-            ++start;
-        }
+			++start;
+		}
 
-        ++end;
-    }
+		++end;
+	}
 
-    return false;
+	return false;
 };

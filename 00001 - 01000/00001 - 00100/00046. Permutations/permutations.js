@@ -7,40 +7,40 @@
  * @return {number[][]}
  */
 const permute = (nums) => {
-    const result = [];
-    const track = [];
-    const used = new Array(nums.length);
+	const result = [];
+	const track = [];
+	const used = new Array(nums.length);
 
-    /**
-     * @param {number[]} nums
-     * @param {number[]} track
-     * @param {boolean[]} used
-     * @return {number[][]}
-     */
-    const backtrack = (nums, track, used) => {
-        const n = nums.length;
+	/**
+	 * @param {number[]} nums
+	 * @param {number[]} track
+	 * @param {boolean[]} used
+	 * @return {number[][]}
+	 */
+	const backtrack = (nums, track, used) => {
+		const n = nums.length;
 
-        if (track.length === n) {
-            result.push([...track]);
-            return;
-        }
+		if (track.length === n) {
+			result.push([...track]);
+			return;
+		}
 
-        for (let i = 0; i < n; ++i) {
-            if (used[i]) {
-                continue;
-            }
+		for (let i = 0; i < n; ++i) {
+			if (used[i]) {
+				continue;
+			}
 
-            track.push(nums[i]);
-            used[i] = true;
-            backtrack(nums, track, used);
-            track.pop();
-            used[i] = false;
-        }
-    }
+			track.push(nums[i]);
+			used[i] = true;
+			backtrack(nums, track, used);
+			track.pop();
+			used[i] = false;
+		}
+	};
 
-    backtrack(nums, track, used);
+	backtrack(nums, track, used);
 
-    return result;
+	return result;
 };
 
 /* =========================================================
@@ -52,35 +52,35 @@ const permute = (nums) => {
  * @return {number[][]}
  */
 const permute = (nums) => {
-    const result = [];
-    const track = [];
+	const result = [];
+	const track = [];
 
-    /**
-     * @param {number[]} nums
-     * @param {number[]} track
-     * @return {number[][]}
-     */
-    const backtrack = (nums) => {
-        const n = nums.length;
+	/**
+	 * @param {number[]} nums
+	 * @param {number[]} track
+	 * @return {number[][]}
+	 */
+	const backtrack = (nums) => {
+		const n = nums.length;
 
-        if (track.length === n) {
-            // slice() return a new array
-            result.push(track.slice());
-            return;
-        }
+		if (track.length === n) {
+			// slice() return a new array
+			result.push(track.slice());
+			return;
+		}
 
-        for (let i = 0; i < n; ++i){
-            if (track.includes(nums[i])) {
-                continue;
-            }
+		for (let i = 0; i < n; ++i) {
+			if (track.includes(nums[i])) {
+				continue;
+			}
 
-            track.push(nums[i]);
-            backtrack(nums);
-            track.pop();
-        }
-    }
+			track.push(nums[i]);
+			backtrack(nums);
+			track.pop();
+		}
+	};
 
-    backtrack(nums);
+	backtrack(nums);
 
-    return result;
+	return result;
 };

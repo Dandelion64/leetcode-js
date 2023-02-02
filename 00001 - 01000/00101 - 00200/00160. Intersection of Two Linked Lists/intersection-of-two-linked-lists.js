@@ -15,8 +15,8 @@
  * @return {ListNode}
  */
 const movePointer = (node) => {
-    return node.next;
-}
+	return node.next;
+};
 
 /**
  * @param {ListNode} headA
@@ -24,22 +24,22 @@ const movePointer = (node) => {
  * @return {ListNode}
  */
 const getIntersectionNode = (headA, headB) => {
-    let pointerAB = headA;
-    let pointerBA = headB;
+	let pointerAB = headA;
+	let pointerBA = headB;
 
-    while (pointerAB !== pointerBA) {
-        if (pointerAB === null) {
-            pointerAB = headB
-        } else {
-            pointerAB = movePointer(pointerAB);
-        }
+	while (pointerAB !== pointerBA) {
+		if (pointerAB === null) {
+			pointerAB = headB;
+		} else {
+			pointerAB = movePointer(pointerAB);
+		}
 
-        if (pointerBA === null) {
-            pointerBA = headA
-        } else {
-            pointerBA = movePointer(pointerBA);
-        }
-    }
+		if (pointerBA === null) {
+			pointerBA = headA;
+		} else {
+			pointerBA = movePointer(pointerBA);
+		}
+	}
 
-    return pointerAB;
+	return pointerAB;
 };

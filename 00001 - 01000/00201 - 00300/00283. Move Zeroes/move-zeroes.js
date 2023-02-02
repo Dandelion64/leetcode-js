@@ -7,19 +7,18 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 const moveZeroes = (nums) => {
-    const n = nums.length;
-    let slow = 0;
-    let fast = 0;
+	const n = nums.length;
+	let slow = 0, fast = 0;
 
-    while (fast < n) {
-        if (nums[fast] !== 0) {
-            nums[slow++] = nums[fast];
-        }
+	while (fast < n) {
+		if (nums[fast] !== 0) {
+			nums[slow++] = nums[fast];
+		}
 
-        ++fast;
-    }
+		++fast;
+	}
 
-    while (slow < n) {
-        nums[slow++] = 0;
-    }
+	while (slow < n) {
+		nums[slow++] = 0;
+	}
 };

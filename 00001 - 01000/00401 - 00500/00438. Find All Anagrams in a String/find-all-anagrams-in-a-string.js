@@ -20,9 +20,7 @@ const findAnagrams = (s, p) => {
 
     const window = {};
     const result = [];
-    let start = 0;
-    let end = 0;
-    let validCount = 0;
+    let start = 0, end = 0, validCount = 0;
 
     while (end < n) {
         if (dictionary[s[end]]) {
@@ -68,9 +66,7 @@ const findAnagrams = (s, p) => {
     const length = p.length;
     const dictionary = {};
     const result = [];
-    let start = 0;
-    let end = 0;
-    let matchCount = 0;
+    let start = 0, end = 0, matchCount = 0;
 
     for (let i = 0; i < length; ++i) {
         dictionary[p[i]] = (dictionary[p[i]]) ? ++dictionary[p[i]] : 1;
@@ -111,7 +107,8 @@ const findAnagrams = (s, p) => {
  * @return {number[]}
  */
 const findAnagrams = (s, p) => {
-    let set = {}, xor = 0, sum = 0, n = p.length, c1, c2, i, result = [];
+    let set = {}, xor = 0, sum = 0, n = p.length, c1, c2, i;
+    const result = [];
 
     for (i = 0 ; i < p.length ; i++) {
         c1 = p.charCodeAt(i);

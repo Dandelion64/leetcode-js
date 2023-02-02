@@ -16,13 +16,13 @@
  * @return {number}
  */
 const maxDepth = (root) => {
-    if (root === null) {
-        return 0;
-    }
+	if (root === null) {
+		return 0;
+	}
 
-    const leftMaxDepth = maxDepth(root.left);
-    const rightMaxDepth = maxDepth(root.right);
-    const result = Math.max(leftMaxDepth, rightMaxDepth) + 1; // 1 for root
+	const leftMaxDepth = maxDepth(root.left);
+	const rightMaxDepth = maxDepth(root.right);
+	const result = Math.max(leftMaxDepth, rightMaxDepth) + 1; // 1 for root
 
-    return result;
+	return result;
 };

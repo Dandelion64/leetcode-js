@@ -15,8 +15,8 @@
  * @return {ListNode}
  */
 const movePointer = (node) => {
-    return node.next;
-}
+	return node.next;
+};
 
 /**
  * @param {ListNode} head
@@ -24,29 +24,29 @@ const movePointer = (node) => {
  * @return {ListNode}
  */
 const removeNthFromEnd = (head, n) => {
-    if (head === null) {
-        return head;
-    }
+	if (head === null) {
+		return head;
+	}
 
-    const dummyHead = new ListNode(0);
-    dummyHead.next = head;
+	const dummyHead = new ListNode(0);
+	dummyHead.next = head;
 
-    let slow = dummyHead;
-    let fast = head;
+	let slow = dummyHead;
+	let fast = head;
 
-    while (n > 0) {
-        fast = movePointer(fast);
-        --n;
-    }
+	while (n > 0) {
+		fast = movePointer(fast);
+		--n;
+	}
 
-    while (fast) {
-        slow = movePointer(slow);
-        fast = movePointer(fast);
-    }
+	while (fast) {
+		slow = movePointer(slow);
+		fast = movePointer(fast);
+	}
 
-    if (slow.next) {
-        slow.next = movePointer(slow.next);
-    }
+	if (slow.next) {
+		slow.next = movePointer(slow.next);
+	}
 
-    return dummyHead.next;
+	return dummyHead.next;
 };

@@ -16,15 +16,15 @@
  * @return {number[]}
  */
 const preorderTraversal = (root) => {
-    if (root === null) {
-        return [];
-    }
+	if (root === null) {
+		return [];
+	}
 
-    let result = [root.val];
-    result.push(...preorderTraversal(root.left));
-    result.push(...preorderTraversal(root.right));
+	let result = [root.val];
+	result.push(...preorderTraversal(root.left));
+	result.push(...preorderTraversal(root.right));
 
-    return result;
+	return result;
 };
 
 /* =========================================================
@@ -36,26 +36,26 @@ const preorderTraversal = (root) => {
  * @return {number[]}
  */
 const preorderTraversal = (root) => {
-    if (root === null) {
-        return [];
-    }
+	if (root === null) {
+		return [];
+	}
 
-    let result = [];
-    let stack = [root];
-    let curNode;
+	const result = [];
+	const stack = [root];
+	let curNode;
 
-    while (stack.length) {
-        curNode = stack.pop();
-        result.push(curNode.val);
+	while (stack.length) {
+		curNode = stack.pop();
+		result.push(curNode.val);
 
-        if (curNode.right) {
-            stack.push(curNode.right);
-        }
+		if (curNode.right) {
+			stack.push(curNode.right);
+		}
 
-        if (curNode.left) {
-            stack.push(curNode.left);
-        }
-    }
+		if (curNode.left) {
+			stack.push(curNode.left);
+		}
+	}
 
-    return result;
+	return result;
 };
