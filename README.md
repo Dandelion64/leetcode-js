@@ -16,6 +16,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **String:**
 * 3\. [**_Longest Substring Without Repeating Characters_**](https://leetcode.com/problems/longest-substring-without-repeating-characters/) _(Medium)_
 * 5\. [**_Longest Palindromic Substring_**](https://leetcode.com/problems/longest-palindromic-substring/) _(Medium)_
+* 6\. [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) (Medium)
 * 76\. [**_Minimum Window Substring_**](https://leetcode.com/problems/minimum-window-substring/) _(Hard)_
 * 125\. [**_Valid Palindrome_**](https://leetcode.com/problems/valid-palindrome/) _(Easy)_
 * 438\. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (Medium)
@@ -35,6 +36,8 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 704\. [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)
 * 953\. [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (Easy)
 * 992\. [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (Hard)
+* 1094\. [Car Pooling](https://leetcode.com/problems/car-pooling/) (Medium)
+* 1109\. [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) (Medium)
 
 **Linked List:**
 * 19\. [**_Remove Nth Node From End of List_**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) _(Medium)_

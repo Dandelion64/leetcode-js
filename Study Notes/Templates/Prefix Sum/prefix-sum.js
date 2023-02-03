@@ -1,11 +1,5 @@
-/**
- * Your NumArray object will be instantiated and called as such:
- * var obj = new NumArray(nums)
- * var param_1 = obj.sumRange(left,right)
- */
-
 /* =========================================================
-=       Solution 1. prefix sum: O(n)                       =
+=       Prefix Sum                                         =
 ========================================================= */
 
 class NumArray {

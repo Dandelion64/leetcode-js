@@ -17,6 +17,10 @@ class NumMatrix {
 		this.prefixSums = this.generateRegionPrefixSum(matrix);
 	}
 
+	/**
+	 * @param {number[]} nums
+	 * @return {number[]}
+	 */
 	generateRegionPrefixSum(matrix) {
 		const row = matrix.length;
 		const col = matrix[0].length;
