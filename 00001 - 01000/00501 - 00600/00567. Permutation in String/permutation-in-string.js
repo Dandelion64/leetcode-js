@@ -8,24 +8,24 @@
  * @return {boolean}
  */
 const checkInclusion = (s1, s2) => {
-	const dictionary = {};
+	const dict = {};
 	const n = s1.length;
 	const m = s2.length;
 
 	for (let i = 0; i < n; ++i) {
-		dictionary[s1[i]] = dictionary[s1[i]] ? ++dictionary[s1[i]] : 1;
+		dict[s1[i]] = dict[s1[i]] ? ++dict[s1[i]] : 1;
 	}
 
-	const o = Object.keys(dictionary).length;
+	const o = Object.keys(dict).length;
 
 	const window = {};
 	let start = 0, end = 0, validCount = 0;
 
 	while (end < m) {
-		if (dictionary[s2[end]]) {
+		if (dict[s2[end]]) {
 			window[s2[end]] = window[s2[end]] ? ++window[s2[end]] : 1;
 
-			if (window[s2[end]] === dictionary[s2[end]]) {
+			if (window[s2[end]] === dict[s2[end]]) {
 				++validCount;
 			}
 		}
@@ -37,8 +37,8 @@ const checkInclusion = (s1, s2) => {
 				return true;
 			}
 
-			if (dictionary[s2[start]]) {
-				if (window[s2[start]] === dictionary[s2[start]]) {
+			if (dict[s2[start]]) {
+				if (window[s2[start]] === dict[s2[start]]) {
 					--validCount;
 				}
 
@@ -68,28 +68,28 @@ const checkInclusion = (s1, s2) => {
 
 	for (let i = 0; i < n; ++i) {
 		if (dict.has(s1[i])) {
-            // dict.set(a, dict.get(a)++) is invalid
-            dict.set(s1[i], dict.get(s1[i]) + 1);
-        } else {
-            dict.set(s1[i], 1);
-        }
+			// dict.set(a, dict.get(a)++) is invalid
+			dict.set(s1[i], dict.get(s1[i]) + 1);
+		} else {
+			dict.set(s1[i], 1);
+		}
 	}
 
-    const window = {};
-    let start = 0, end = 0, validCount = 0;
+	const window = {};
+	let start = 0, end = 0, validCount = 0;
 
-    while (end < m) {
-        if (dict.has(s2[end])) {
-            window[s2[end]] = window[s2[end]] ? ++window[s2[end]] : 1;
+	while (end < m) {
+		if (dict.has(s2[end])) {
+			window[s2[end]] = window[s2[end]] ? ++window[s2[end]] : 1;
 
 			if (window[s2[end]] === dict.get(s2[end])) {
 				++validCount;
 			}
-        }
+		}
 
-        ++end;
+		++end;
 
-        while (validCount === dict.size) {
+		while (validCount === dict.size) {
 			if (end - start === n) {
 				return true;
 			}
@@ -104,9 +104,9 @@ const checkInclusion = (s1, s2) => {
 
 			++start;
 		}
-    }
+	}
 
-    return false;
+	return false;
 };
 
 /* =========================================================
@@ -119,20 +119,20 @@ const checkInclusion = (s1, s2) => {
  * @return {boolean}
  */
 const checkInclusion = (s1, s2) => {
-	const dictionary = {};
+	const dict = {};
 	const n = s1.length;
 	const m = s2.length;
 
 	for (let i = 0; i < n; ++i) {
-		dictionary[s1[i]] = dictionary[s1[i]] ? ++dictionary[s1[i]] : 1;
+		dict[s1[i]] = dict[s1[i]] ? ++dict[s1[i]] : 1;
 	}
 
-	const o = Object.keys(dictionary).length;
+	const o = Object.keys(dict).length;
 
 	let start = 0, end = 0, matchCount = 0;
 
 	while (end < m) {
-		if (--dictionary[s2[end]] === 0) {
+		if (--dict[s2[end]] === 0) {
 			++matchCount;
 		}
 
@@ -141,7 +141,7 @@ const checkInclusion = (s1, s2) => {
 				return true;
 			}
 
-			if (++dictionary[s2[start]] > 0) {
+			if (++dict[s2[start]] > 0) {
 				--matchCount;
 			}
 
