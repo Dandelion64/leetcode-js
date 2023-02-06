@@ -36,7 +36,42 @@ const rob = (nums) => {
 };
 
 /* =========================================================
-=       Solution 2.v1. bottom-top dp iteration: O(n)       =
+=       Solution 2. bottom-top dp iteration: O(n)          =
+========================================================= */
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+const rob = (nums) => {
+	const n = nums.length;
+
+	if (n === 1) {
+		return nums[0];
+	}
+
+	if (n === 2) {
+		return Math.max(nums[0], nums[1]);
+	}
+
+	const dp = Array.from({ length: n }, () => Array(2));
+
+	// base case
+	dp[0][0] = 0;
+	dp[0][1] = nums[0];
+	dp[1][0] = dp[0][1];
+	dp[1][1] = nums[1];
+
+	for (let i = 2; i < n; ++i) {
+		dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1]);
+		dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] + nums[i]);
+	}
+
+	return Math.max(dp[n - 1][0], dp[n - 1][1]);
+};
+
+/* =========================================================
+=       Solution 3.v1. bottom-top dp iteration: O(n)       =
 ========================================================= */
 
 // slow
@@ -70,7 +105,7 @@ const rob = (nums) => {
 };
 
 /* =========================================================
-=       Solution 2.v2. bottom-top dp iteration: O(n)       =
+=       Solution 3.v2. bottom-top dp iteration: O(n)       =
 ========================================================= */
 
 // revised for boundary handling
@@ -96,7 +131,7 @@ const rob = (nums) => {
 };
 
 /* =========================================================
-=       Solution 2.v3. bottom-top dp iteration: O(n)       =
+=       Solution 3.v3. bottom-top dp iteration: O(n)       =
 ========================================================= */
 
 // optimized
@@ -121,7 +156,7 @@ const rob = (nums) => {
 };
 
 /* =========================================================
-=       Solution 3. bottom-top dp iteration: O(n)          =
+=       Solution 4. bottom-top dp iteration: O(n)          =
 ========================================================= */
 
 /**

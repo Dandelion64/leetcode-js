@@ -73,3 +73,26 @@ const reverseWords = (s) => {
 		return string;
 	}
 };
+
+/* =========================================================
+=       Solution 3. two pointers: O(n)                     =
+========================================================= */
+
+/**
+ * @param {string} s
+ * @return {string}
+ */
+const reverseWords = (s) => {
+	const words = s.trim().split(/\s+/);
+
+    let left = 0, right = words.length - 1;
+
+	while (left < right) {
+		[words[left], words[right]] = [words[right], words[left]];
+
+		++left;
+		--right;
+	}
+
+    return words.join(' ');
+};

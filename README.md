@@ -41,6 +41,9 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 1109\. [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) (Medium)
 * 1470\. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (Easy)
 
+**Matrix:**
+* 48\. [Rotate Image](https://leetcode.com/problems/rotate-image/) (Medium)
+
 **Linked List:**
 * 19\. [**_Remove Nth Node From End of List_**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) _(Medium)_
 * 21\. [**_Merge Two Sorted Lists_**](https://leetcode.com/problems/merge-two-sorted-lists/) _(Easy)_
@@ -89,8 +92,8 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 188\. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) (Hard)
 * 198\. [House Robber](https://leetcode.com/problems/house-robber/) (Medium)
 * 213\. [House Robber II](https://leetcode.com/problems/house-robber-ii/) (Medium)
-* 213\. [House Robber II](https://leetcode.com/problems/house-robber-ii/) (Medium)
 * 300\. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (Medium)
+* 309\. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) (Medium)
 * 322\. [**_Coin Change_**](https://leetcode.com/problems/coin-change/) _(Medium)_
 * 337\. [House Robber III](https://leetcode.com/problems/house-robber-iii/) (Medium)
 * 509\. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (Easy)
