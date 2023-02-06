@@ -19,6 +19,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 6\. [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) (Medium)
 * 76\. [**_Minimum Window Substring_**](https://leetcode.com/problems/minimum-window-substring/) _(Hard)_
 * 125\. [**_Valid Palindrome_**](https://leetcode.com/problems/valid-palindrome/) _(Easy)_
+* 151\. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) (Medium)
 * 438\. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (Medium)
 * 567\. [Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Medium)
 * 1071\. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) (Easy)
@@ -38,6 +39,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 992\. [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (Hard)
 * 1094\. [Car Pooling](https://leetcode.com/problems/car-pooling/) (Medium)
 * 1109\. [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) (Medium)
+* 1470\. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (Easy)
 
 **Linked List:**
 * 19\. [**_Remove Nth Node From End of List_**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) _(Medium)_
@@ -87,10 +89,12 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 188\. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) (Hard)
 * 198\. [House Robber](https://leetcode.com/problems/house-robber/) (Medium)
 * 213\. [House Robber II](https://leetcode.com/problems/house-robber-ii/) (Medium)
-* 309\. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) (Medium)
+* 213\. [House Robber II](https://leetcode.com/problems/house-robber-ii/) (Medium)
+* 300\. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (Medium)
 * 322\. [**_Coin Change_**](https://leetcode.com/problems/coin-change/) _(Medium)_
 * 337\. [House Robber III](https://leetcode.com/problems/house-robber-iii/) (Medium)
 * 509\. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (Easy)
+* 518\. [Coin Change II](https://leetcode.com/problems/coin-change-ii/) (Medium)
 * 714\. [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) (Medium)
 * 1137\. [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) (Easy)
 * 1626\. [Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/) (Medium)
