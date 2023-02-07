@@ -75,4 +75,4 @@ To understand the timing of `select()` and `deselect()`, we need to revisit the 
 
 ## Reference:
 
-* [回溯算法解题套路框架](https://labuladong.github.io/algo/di-ling-zh-bfe1b/hui-su-sua-c26da/)
+* [回溯算法解題套路框架](https://labuladong.github.io/algo/di-ling-zh-bfe1b/hui-su-sua-c26da/)

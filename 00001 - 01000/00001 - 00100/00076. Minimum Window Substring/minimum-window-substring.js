@@ -8,28 +8,24 @@
  * @return {string}
  */
 const minWindow = (s, t) => {
-	const dictionary = {};
+	const dict = {};
 	const m = s.length;
 	const n = t.length;
 
 	for (let i = 0; i < n; ++i) {
-		dictionary[t[i]] = dictionary[t[i]] ? ++dictionary[t[i]] : 1;
+		dict[t[i]] = dict[t[i]] ? ++dict[t[i]] : 1;
 	}
 
-	const o = Object.keys(dictionary).length;
+	const o = Object.keys(dict).length;
 
-	let start = 0;
-	let end = 0;
-	let startIndex = 0;
-	let minLength = Infinity;
-	let validCount = 0;
 	const window = {};
+	let start = 0, end = 0, startIndex = 0, minLength = Infinity, validCount = 0;
 
 	while (end < m) {
-		if (dictionary[s[end]]) {
+		if (dict[s[end]]) {
 			window[s[end]] = window[s[end]] ? ++window[s[end]] : 1;
 
-			if (window[s[end]] === dictionary[s[end]]) {
+			if (window[s[end]] === dict[s[end]]) {
 				++validCount;
 			}
 		}
@@ -44,8 +40,8 @@ const minWindow = (s, t) => {
 				minLength = length;
 			}
 
-			if (dictionary[s[start]]) {
-				if (window[s[start]] === dictionary[s[start]]) {
+			if (dict[s[start]]) {
+				if (window[s[start]] === dict[s[start]]) {
 					--validCount;
 				}
 
@@ -69,37 +65,37 @@ const minWindow = (s, t) => {
  * @return {string}
  */
 const minWindow = (s, t) => {
-	const dictionary = {};
+	const dict = {};
 	const m = s.length;
 	const n = t.length;
 
 	for (let i = 0; i < n; ++i) {
-		dictionary[t[i]] = dictionary[t[i]] ? ++dictionary[t[i]] : 1;
+		dict[t[i]] = dict[t[i]] ? ++dict[t[i]] : 1;
 	}
 
 	let start = 0, end = 0, startIndex = m + 1, minLength = m + 1, matchCount = 0;
 
 	while (end < m) {
-		if (--dictionary[s[end]] >= 0) {
+		if (--dict[s[end]] >= 0) {
 			++matchCount;
 		}
 
+        ++end;
+
 		while (matchCount === n) {
-			const length = end - start + 1;
+			const length = end - start;
 
 			if (length < minLength) {
 				minLength = length;
 				startIndex = start;
 			}
 
-			if (++dictionary[s[start]] > 0) {
+			if (++dict[s[start]] > 0) {
 				--matchCount;
 			}
 
 			++start;
 		}
-
-		++end;
 	}
 
 	return s.slice(startIndex, startIndex + minLength);

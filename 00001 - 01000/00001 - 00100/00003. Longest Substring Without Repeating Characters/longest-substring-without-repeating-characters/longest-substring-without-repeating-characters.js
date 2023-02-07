@@ -37,27 +37,29 @@ const lengthOfLongestSubstring = (s) => {
  * @return {number}
  */
 const lengthOfLongestSubstring = (s) => {
-	const charactersSet = new Set();
+	const chars = new Set();
 	let start = 0, end = 0;
 	let length = 0;
 
 	while (end < s.length) {
-		while (charactersSet.has(s[end])) {
-			charactersSet.delete(s[start]);
+		while (chars.has(s[end])) {
+			chars.delete(s[start]);
+
 			++start;
 		}
 
-		charactersSet.add(s[end]);
-		length = Math.max(length, end - start + 1);
+		chars.add(s[end]);
 
 		++end;
+
+		length = Math.max(length, end - start);
 	}
 
 	return length;
 };
 
 /* =========================================================
-=       Solution 2. array: O(n)                            =
+=       Solution 2. O(n)                                   =
 ========================================================= */
 
 // fast
@@ -67,18 +69,18 @@ const lengthOfLongestSubstring = (s) => {
  * @return {number}
  */
 const lengthOfLongestSubstring = (s) => {
-	const currentSubstring = [];
+	const window = [];
 	let length = 0;
 
 	for (let i = 0; i < s.length; ++i) {
-		const currentCharacterIndex = currentSubstring.indexOf(s[i]);
+		const index = window.indexOf(s[i]);
 
-		if (currentCharacterIndex !== -1) {
-			currentSubstring.splice(0, currentCharacterIndex + 1);
+		if (index !== -1) {
+			window.splice(0, index + 1);
 		}
 
-		currentSubstring.push(s[i]);
-		length = Math.max(length, currentSubstring.length);
+		window.push(s[i]);
+		length = Math.max(length, window.length);
 	}
 
 	return length;

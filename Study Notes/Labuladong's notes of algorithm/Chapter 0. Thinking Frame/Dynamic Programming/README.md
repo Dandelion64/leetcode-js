@@ -16,4 +16,4 @@ To solve DP problems, you can follow these steps:
 
 ## Reference:
 
-* [动态规划解题套路框架](https://labuladong.github.io/algo/di-ling-zh-bfe1b/dong-tai-g-1e688/)
+* [動態規劃解題套路框架](https://labuladong.github.io/algo/di-ling-zh-bfe1b/dong-tai-g-1e688/)

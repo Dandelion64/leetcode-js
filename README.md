@@ -20,6 +20,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 76\. [**_Minimum Window Substring_**](https://leetcode.com/problems/minimum-window-substring/) _(Hard)_
 * 125\. [**_Valid Palindrome_**](https://leetcode.com/problems/valid-palindrome/) _(Easy)_
 * 151\. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) (Medium)
+* 187\. [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) (Medium)
 * 438\. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (Medium)
 * 567\. [Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Medium)
 * 1071\. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) (Easy)
@@ -35,6 +36,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
 * 704\. [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)
+* 904\. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)
 * 953\. [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (Easy)
 * 992\. [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (Hard)
 * 1094\. [Car Pooling](https://leetcode.com/problems/car-pooling/) (Medium)
@@ -43,6 +45,8 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 **Matrix:**
 * 48\. [Rotate Image](https://leetcode.com/problems/rotate-image/) (Medium)
+* 54\. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (Medium)
+* 59\. [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) (Medium)
 
 **Linked List:**
 * 19\. [**_Remove Nth Node From End of List_**](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) _(Medium)_

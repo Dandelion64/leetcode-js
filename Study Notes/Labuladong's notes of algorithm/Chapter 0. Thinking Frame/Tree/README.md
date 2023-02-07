@@ -10,4 +10,4 @@ Or, if you need to do something to the left tree and the right tree respectively
 
 ## Reference:
 
-* [东哥带你刷二叉树（纲领篇）](https://labuladong.github.io/algo/di-ling-zh-bfe1b/dong-ge-da-334dd/)
+* [東哥帶你刷二叉樹（綱領篇）](https://labuladong.github.io/algo/di-ling-zh-bfe1b/dong-ge-da-334dd/)
