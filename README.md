@@ -38,9 +38,11 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
 * 704\. [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)
+* 875\. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)
 * 904\. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)
 * 953\. [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (Easy)
 * 992\. [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (Hard)
+* 1011\. [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) (Medium)
 * 1094\. [Car Pooling](https://leetcode.com/problems/car-pooling/) (Medium)
 * 1109\. [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) (Medium)
 * 1470\. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (Easy)
@@ -79,6 +81,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **Prefix Sum:**
 * 303\. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (Easy)
 * 304\. [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) (Medium)
+* 528\. [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) (Medium)
 
 **Backtracking (DFS):**
 * 39\. [**_Combination Sum_**](https://leetcode.com/problems/combination-sum/) _(Medium)_
