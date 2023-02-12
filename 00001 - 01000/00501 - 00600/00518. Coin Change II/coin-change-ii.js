@@ -1,5 +1,5 @@
 /* =========================================================
-=       Solution 2.v2. bottom-top dp iteration: O(kn)      =
+=       Solution 1. bottom-top dp iteration: O(kn)         =
 ========================================================= */
 
 /**
@@ -8,11 +8,9 @@
  * @return {number}
  */
 const change = (amount, coins) => {
-    if (amount === 0) {
-		return 1;
-	}
+    if (amount === 0) return 1;
 
-    let dp = new Array(amount + 1).fill(0);
+    const dp = Array(amount + 1).fill(0);
 
     // base case
 	dp[0] = 1;
