@@ -38,6 +38,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
 * 704\. [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)
+* 870\. [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) (Medium)
 * 875\. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)
 * 904\. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)
 * 953\. [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (Easy)
@@ -68,6 +69,14 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 234\. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) (Easy)
 * 876\. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)
 
+**Math:**
+* 1523\. [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) (Easy)
+
+**Prefix Sum:**
+* 303\. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (Easy)
+* 304\. [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) (Medium)
+* 528\. [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) (Medium)
+
 **Tree:**
 * 102\. [**_Binary Tree Level Order Traversal_**](https://leetcode.com/problems/binary-tree-level-order-traversal/) _(Medium)_
 * 104\. [**_Maximum Depth of Binary Tree_**](https://leetcode.com/problems/maximum-depth-of-binary-tree/) _(Easy)_
@@ -77,11 +86,6 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
 * 752\. [Open the Lock](https://leetcode.com/problems/open-the-lock/) (Medium)
-
-**Prefix Sum:**
-* 303\. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (Easy)
-* 304\. [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) (Medium)
-* 528\. [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) (Medium)
 
 **Backtracking (DFS):**
 * 39\. [**_Combination Sum_**](https://leetcode.com/problems/combination-sum/) _(Medium)_
