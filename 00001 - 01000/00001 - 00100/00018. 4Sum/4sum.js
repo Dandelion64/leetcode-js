@@ -73,7 +73,7 @@ const threeSumTarget = (nums, start, target) => {
 const fourSum = (nums, target) => {
 	const n = nums.length;
 
-	nums = nums.sort((a, b) => a - b); // in-place
+	nums.sort((a, b) => a - b); // in-place
 
 	let triples;
 	const result = [];

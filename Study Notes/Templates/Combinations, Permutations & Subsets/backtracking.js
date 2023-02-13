@@ -20,7 +20,7 @@ function backtrack(nums, start) {
  */
 const track = [];
 
-nums = nums.sort((a, b) => a - b);
+nums.sort((a, b) => a - b); // in-place
 
 function backtrack(nums, start) {
     for (let i = start; i < nums.length; ++i) {
@@ -77,7 +77,7 @@ function backtrack(nums) {
 const track = [];
 const used = new Array(nums.length);
 
-nums = nums.sort((a, b) => a - b);
+nums.sort((a, b) => a - b); // in-place
 
 function backtrack(nums) {
     for (let i = start; i < nums.length; ++i) {

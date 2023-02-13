@@ -12,7 +12,7 @@ const combinationSum = (candidates, target) => {
 	const track = [];
 	let trackSum = 0;
 
-	candidates = candidates.sort((a, b) => a - b);
+	candidates.sort((a, b) => a - b); // in-place
 
 	/**
 	 * @param {number[]} nums

@@ -52,7 +52,7 @@ const threeSum = (nums) => {
 	let tuples;
 	const result = [];
 
-	nums = nums.sort((a, b) => a - b); // in-place
+	nums.sort((a, b) => a - b); // in-place
 
 	for (let i = 0; i < n; ++i) {
 		tuples = twoSumTarget(nums, i + 1, target - nums[i]);

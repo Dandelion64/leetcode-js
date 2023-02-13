@@ -60,7 +60,7 @@ const twoSum = (nums, target) => {
 const twoSum = (nums, target) => {
 	let sortedNums = nums.map((n) => n);
 
-	sortedNums = sortedNums.sort((a, b) => a - b);
+	sortedNums.sort((a, b) => a - b); // in-place
 
 	let left = 0, right = sortedNums.length - 1, sum;
 

@@ -11,7 +11,7 @@ const permuteUnique = (nums) => {
 	const track = [];
 	const used = new Array(nums.length);
 
-	nums = nums.sort((a, b) => a - b);
+	nums.sort((a, b) => a - b); // in-place
 
 	/**
 	 * @param {number[]} nums

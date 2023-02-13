@@ -3,7 +3,7 @@
 ========================================================= */
 
 function twoSumTarget(nums, target) {
-    nums = nums.sort((a, b) => a - b); // in-place
+    nums.sort((a, b) => a - b); // in-place
 
     const result = [];
     let left = 0, right = nums.length - 1, sum, numLeft, numRight;
@@ -42,7 +42,7 @@ function twoSumTarget(nums, target) {
 ========================================================= */
 
 function nSum(nums, n, start, target) {
-    nums = nums.sort((a, b) => a - b); // in-place
+    nums.sort((a, b) => a - b); // in-place
 
     return nSumTarget(nums, n, start, target);
 }

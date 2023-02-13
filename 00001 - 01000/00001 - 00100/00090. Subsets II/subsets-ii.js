@@ -10,7 +10,7 @@ const subsetsWithDup = (nums) => {
 	const result = [];
 	const track = [];
 
-	nums = nums.sort((a, b) => a - b);
+	nums.sort((a, b) => a - b); // in-place
 
 	/**
 	 * @param {number[]} nums
