@@ -39,6 +39,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
 * 380\. [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) (Medium)
 * 704\. [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)
+* 710\. [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/) (Hard)
 * 870\. [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) (Medium)
 * 875\. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)
 * 904\. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)
@@ -71,6 +72,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 876\. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)
 
 **Math:**
+* 67\. [Add Binary](https://leetcode.com/problems/add-binary/) (Easy)
 * 1523\. [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) (Easy)
 
 **Prefix Sum:**
