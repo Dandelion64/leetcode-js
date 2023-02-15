@@ -21,9 +21,11 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 125\. [**_Valid Palindrome_**](https://leetcode.com/problems/valid-palindrome/) _(Easy)_
 * 151\. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) (Medium)
 * 187\. [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) (Medium)
+* 316\. [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) (Medium)
 * 438\. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (Medium)
 * 567\. [Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Medium)
 * 1071\. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) (Easy)
+* 1081\. [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) (Medium)
 
 **Array:**
 * 1\. [**_Two Sum_**](https://leetcode.com/problems/two-sum/) _(Easy)_
@@ -73,6 +75,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 **Math:**
 * 67\. [Add Binary](https://leetcode.com/problems/add-binary/) (Easy)
+* 989\. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) (Easy)
 * 1523\. [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) (Easy)
 
 **Prefix Sum:**
