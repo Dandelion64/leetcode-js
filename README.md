@@ -87,6 +87,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 102\. [**_Binary Tree Level Order Traversal_**](https://leetcode.com/problems/binary-tree-level-order-traversal/) _(Medium)_
 * 104\. [**_Maximum Depth of Binary Tree_**](https://leetcode.com/problems/maximum-depth-of-binary-tree/) _(Easy)_
 * 144\. [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (Easy)
+* 226\. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Easy)
 * 543\. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)
 
 **Breadth-First-Search (BFS):**
