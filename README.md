@@ -35,7 +35,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 27\. [Remove Element](https://leetcode.com/problems/remove-element/) (Easy)
 * 34\. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medium)
 * 45\. [Jump Game II](https://leetcode.com/problems/jump-game-ii/) (Medium)
-* 55\. [Jump Game](https://leetcode.com/problems/jump-game) (Medium)
+* 55\. [**_Jump Game_**](https://leetcode.com/problems/jump-game) _(Medium)_
 * 167\. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medium)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
@@ -53,8 +53,8 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 1470\. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (Easy)
 
 **Matrix:**
-* 48\. [Rotate Image](https://leetcode.com/problems/rotate-image/) (Medium)
-* 54\. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (Medium)
+* 48\. [**_Rotate Image_**](https://leetcode.com/problems/rotate-image/) _(Medium)_
+* 54\. [**_Spiral Matrix_**](https://leetcode.com/problems/spiral-matrix/) _(Medium)_
 * 59\. [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) (Medium)
 
 **Linked List:**
@@ -86,9 +86,13 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **Tree:**
 * 102\. [**_Binary Tree Level Order Traversal_**](https://leetcode.com/problems/binary-tree-level-order-traversal/) _(Medium)_
 * 104\. [**_Maximum Depth of Binary Tree_**](https://leetcode.com/problems/maximum-depth-of-binary-tree/) _(Easy)_
+* 105\. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) (Medium)
+* 114\. [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) (Medium)
+* 116\. [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medium)
 * 144\. [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (Easy)
-* 226\. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Easy)
+* 226\. [**_Invert Binary Tree_**](https://leetcode.com/problems/invert-binary-tree/) _(Easy)_
 * 543\. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)
+* 654\. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) (Medium)
 
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
@@ -110,8 +114,8 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 122\. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) (Medium)
 * 123\. [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) (Hard)
 * 188\. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) (Hard)
-* 198\. [House Robber](https://leetcode.com/problems/house-robber/) (Medium)
-* 213\. [House Robber II](https://leetcode.com/problems/house-robber-ii/) (Medium)
+* 198\. [**_House Robber_**](https://leetcode.com/problems/house-robber/) _(Medium)_
+* 213\. [**_House Robber II_**](https://leetcode.com/problems/house-robber-ii/) _(Medium)_
 * 300\. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (Medium)
 * 309\. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) (Medium)
 * 322\. [**_Coin Change_**](https://leetcode.com/problems/coin-change/) _(Medium)_
