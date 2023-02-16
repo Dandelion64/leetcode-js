@@ -87,6 +87,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 102\. [**_Binary Tree Level Order Traversal_**](https://leetcode.com/problems/binary-tree-level-order-traversal/) _(Medium)_
 * 104\. [**_Maximum Depth of Binary Tree_**](https://leetcode.com/problems/maximum-depth-of-binary-tree/) _(Easy)_
 * 105\. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) (Medium)
+* 106\. [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) (Medium)
 * 114\. [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) (Medium)
 * 116\. [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medium)
 * 144\. [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (Easy)
