@@ -94,6 +94,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 226\. [**_Invert Binary Tree_**](https://leetcode.com/problems/invert-binary-tree/) _(Easy)_
 * 543\. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)
 * 654\. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) (Medium)
+* 783\. [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) (Easy)
 
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
