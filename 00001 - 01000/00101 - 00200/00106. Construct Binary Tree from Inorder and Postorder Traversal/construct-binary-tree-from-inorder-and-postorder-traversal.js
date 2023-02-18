@@ -21,10 +21,9 @@ const buildTree = (inorder, postorder) => {
 
 	/**
 	 * @param {number[]} inorder
-	 * @param {number[]} postorder
 	 * @return {TreeNode}
 	 */
-	const buildMap = (inorder, postorder) => {
+	const buildMap = (inorder) => {
 		for (let i = 0; i < inorder.length; ++i) {
 			valToIndex.set(inorder[i], i);
 		}
@@ -53,7 +52,7 @@ const buildTree = (inorder, postorder) => {
 		return root;
 	};
 
-	buildMap(inorder, postorder);
+	buildMap(inorder);
 
 	return build(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1);
 };

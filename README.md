@@ -95,6 +95,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 543\. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)
 * 654\. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) (Medium)
 * 783\. [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) (Easy)
+* 889\. [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) (Medium)
 
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
