@@ -1,5 +1,8 @@
 # leetcode-js:
 
+![Types of Data Structures](https://user-images.githubusercontent.com/106054083/219955538-c7fd9fbc-62ca-47b3-8772-b6369a8a0934.png)
+Source: [Data Structure Interview Questions - InterviewBit](https://www.interviewbit.com/data-structure-interview-questions/#what-are-data-structures)
+
 ![Big-O Complexity Chart](https://user-images.githubusercontent.com/106054083/212619000-5dffc98b-bbc8-41a4-80f5-cab4d7ec7048.png)
 Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
@@ -97,6 +100,9 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 654\. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) (Medium)
 * 783\. [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) (Easy)
 * 889\. [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) (Medium)
+
+**Graph:**
+* 200\. [**_Number of Islands_**](https://leetcode.com/problems/number-of-islands/) _(Medium)_
 
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
