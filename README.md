@@ -104,6 +104,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 **Graph:**
 * 200\. [**_Number of Islands_**](https://leetcode.com/problems/number-of-islands/) _(Medium)_
+* 207\. [**_Course Schedule_**](https://leetcode.com/problems/course-schedule/) _(Medium)_
 * 797\. [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) (Medium)
 
 **Breadth-First-Search (BFS):**
