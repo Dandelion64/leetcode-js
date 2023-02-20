@@ -37,6 +37,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 26\. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Easy)
 * 27\. [Remove Element](https://leetcode.com/problems/remove-element/) (Easy)
 * 34\. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medium)
+* 35\. [Search Insert Position](https://leetcode.com/problems/search-insert-position/) (Easy)
 * 45\. [Jump Game II](https://leetcode.com/problems/jump-game-ii/) (Medium)
 * 55\. [**_Jump Game_**](https://leetcode.com/problems/jump-game) _(Medium)_
 * 167\. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medium)
@@ -103,6 +104,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 **Graph:**
 * 200\. [**_Number of Islands_**](https://leetcode.com/problems/number-of-islands/) _(Medium)_
+* 797\. [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) (Medium)
 
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
