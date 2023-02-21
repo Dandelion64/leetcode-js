@@ -26,7 +26,7 @@ const canFinish = (numCourses, prerequisites) => {
 	};
 
 	const graph = buildGraph(numCourses, prerequisites);
-	const visited = Array(numCourses).fill(false);
+	const visited = Array(numCourses);
 	const onPath = Array(numCourses);
 	let isCyclic = false;
 
@@ -121,6 +121,8 @@ const canFinish = (numCourses, prerequisites) => {
 =       Solution 2. bfs: O(n + m)                          =
 ========================================================= */
 
+// topological sorting
+
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites
@@ -162,7 +164,7 @@ const canFinish = (numCourses, prerequisites) => {
 	let count = 0;
 
 	while (queue.length) {
-		const cur = queue.pop();
+		const cur = queue.shift();
 
 		++count;
 

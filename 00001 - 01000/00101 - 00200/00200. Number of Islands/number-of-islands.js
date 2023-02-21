@@ -7,7 +7,8 @@
  * @return {number}
  */
 const numIslands = (grid) => {
-	const [rows, cols] = [grid.length, grid[0].length];
+	const rows = grid.length;
+    const cols = grid[0].length;
 	let count = 0;
 
 	/**

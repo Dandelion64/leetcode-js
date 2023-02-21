@@ -44,6 +44,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
 * 380\. [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) (Medium)
+* 540\. [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) (Medium)
 * 704\. [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)
 * 710\. [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/) (Hard)
 * 870\. [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) (Medium)
@@ -105,6 +106,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 **Graph:**
 * 200\. [**_Number of Islands_**](https://leetcode.com/problems/number-of-islands/) _(Medium)_
 * 207\. [**_Course Schedule_**](https://leetcode.com/problems/course-schedule/) _(Medium)_
+* 210\. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Medium)
 * 797\. [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) (Medium)
 
 **Breadth-First-Search (BFS):**
