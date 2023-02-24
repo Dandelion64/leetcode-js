@@ -19,21 +19,21 @@ const defaultCmp = (x, y) => x > y;
  * @param {number} j
  */
 const swap = (arr, i, j) => {
-    [arr[i], arr[j]] = [arr[j], arr[i]]
+	[arr[i], arr[j]] = [arr[j], arr[i]];
 };
 
 class Heap {
-    /**
-     * @param {function} cmp
-     */
+	/**
+	 * @param {function} cmp
+	 */
 	constructor(cmp = defaultCmp) {
 		this.container = [];
 		this.cmp = cmp;
 	}
 
-    /**
-     * @param {number} data
-     */
+	/**
+	 * @param {number} data
+	 */
 	insert(data) {
 		const { container, cmp } = this;
 
@@ -114,8 +114,8 @@ const findMaximizedCapital = (k, w, profits, capital) => {
 		if (maxHeap.size()) {
 			w += maxHeap.pop();
 		} else {
-            break;
-        }
+			break;
+		}
 	}
 
 	return w;

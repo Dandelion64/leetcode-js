@@ -99,6 +99,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 116\. [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medium)
 * 144\. [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) (Easy)
 * 226\. [**_Invert Binary Tree_**](https://leetcode.com/problems/invert-binary-tree/) _(Easy)_
+* 297\. [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (Medium)
 * 543\. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)
 * 654\. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) (Medium)
 * 783\. [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) (Easy)
@@ -110,6 +111,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 207\. [**_Course Schedule_**](https://leetcode.com/problems/course-schedule/) _(Medium)_
 * 210\. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Medium)
 * 417\. [**_Pacific Atlantic Water Flow_**](https://leetcode.com/problems/pacific-atlantic-water-flow/) _(Medium)_
+* 684\. [Redundant Connection](https://leetcode.com/problems/redundant-connection/) (Medium)
 * 797\. [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) (Medium)
 
 **Breadth-First-Search (BFS):**
