@@ -52,6 +52,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 870\. [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) (Medium)
 * 875\. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)
 * 904\. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)
+* 912\. [Sort an Array](https://leetcode.com/problems/sort-an-array/) (Medium)
 * 953\. [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (Easy)
 * 992\. [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (Hard)
 * 1011\. [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) (Medium)
@@ -102,6 +103,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 226\. [**_Invert Binary Tree_**](https://leetcode.com/problems/invert-binary-tree/) _(Easy)_
 * 297\. [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (Medium)
 * 543\. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)
+* 652\. [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) (Medium)
 * 654\. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) (Medium)
 * 783\. [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) (Easy)
 * 889\. [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) (Medium)
@@ -114,6 +116,9 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 417\. [**_Pacific Atlantic Water Flow_**](https://leetcode.com/problems/pacific-atlantic-water-flow/) _(Medium)_
 * 684\. [Redundant Connection](https://leetcode.com/problems/redundant-connection/) (Medium)
 * 797\. [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) (Medium)
+
+**Heap:**
+* 703\. [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) (Easy)
 
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
