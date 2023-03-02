@@ -27,6 +27,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 187\. [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) (Medium)
 * 316\. [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) (Medium)
 * 438\. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) (Medium)
+* 443\. [String Compression](https://leetcode.com/problems/string-compression/) (Medium)
 * 567\. [Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Medium)
 * 1071\. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) (Easy)
 * 1081\. [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) (Medium)
@@ -52,7 +53,6 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 870\. [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) (Medium)
 * 875\. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)
 * 904\. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)
-* 912\. [Sort an Array](https://leetcode.com/problems/sort-an-array/) (Medium)
 * 953\. [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) (Easy)
 * 992\. [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (Hard)
 * 1011\. [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) (Medium)
@@ -91,6 +91,12 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 304\. [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) (Medium)
 * 528\. [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) (Medium)
 
+**Sort:**
+* 315\. [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) (Hard)
+* 327\. [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) (Hard)
+* 493\. [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) (Hard)
+* 912\. [Sort an Array](https://leetcode.com/problems/sort-an-array/) (Medium)
+
 **Tree:**
 * 102\. [**_Binary Tree Level Order Traversal_**](https://leetcode.com/problems/binary-tree-level-order-traversal/) _(Medium)_
 * 103\. [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medium)
@@ -119,6 +125,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 **Heap:**
 * 703\. [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) (Easy)
+* 1046\. [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (Easy)
 
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)

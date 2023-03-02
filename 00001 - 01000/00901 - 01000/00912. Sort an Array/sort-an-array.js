@@ -59,8 +59,8 @@ const sortArray = (nums) => {
 
 			if (i <= j) {
 				swap(nums, i, j);
-                ++i;
-                --j;
+				++i;
+				--j;
 			}
 		}
 
@@ -69,6 +69,66 @@ const sortArray = (nums) => {
 	};
 
 	quicksort(nums, 0, nums.length - 1);
+
+	return nums;
+};
+
+/* =========================================================
+=       Solution 3. mergesort: O(n log n)                  =
+========================================================= */
+
+// fast
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+const sortArray = (nums) => {
+	const temp = Array(nums.length).fill(0);
+
+	/**
+	 * @param {number[]} nums
+	 * @param {number} low
+	 * @param {number} mid
+	 * @param {number} high
+	 */
+	const merge = (nums, low, mid, high) => {
+		for (let i = low; i <= high; ++i) {
+			temp[i] = nums[i];
+		}
+
+		let i = low, j = mid + 1;
+
+		for (let p = low; p <= high; ++p) {
+			if (i === mid + 1) {
+				nums[p] = temp[j++];
+			} else if (j === high + 1) {
+				nums[p] = temp[i++];
+			} else if (temp[i] > temp[j]) {
+				nums[p] = temp[j++];
+			} else {
+				nums[p] = temp[i++];
+			}
+		}
+	};
+
+	/**
+	 * @param {number[]} nums
+	 * @param {number} low
+	 * @param {number} high
+	 * @return {number[]}
+	 */
+	const sort = (nums, low, high) => {
+		if (low === high) return;
+
+		const mid = (low + high) >>> 1;
+
+		sort(nums, low, mid);
+		sort(nums, mid + 1, high);
+		merge(nums, low, mid, high);
+	};
+
+	sort(nums, 0, nums.length - 1);
 
 	return nums;
 };
