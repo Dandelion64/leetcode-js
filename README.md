@@ -20,6 +20,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 3\. [**_Longest Substring Without Repeating Characters_**](https://leetcode.com/problems/longest-substring-without-repeating-characters/) _(Medium)_
 * 5\. [**_Longest Palindromic Substring_**](https://leetcode.com/problems/longest-palindromic-substring/) _(Medium)_
 * 6\. [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) (Medium)
+* 28\. [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) (Medium)
 * 72\. [Edit Distance](https://leetcode.com/problems/edit-distance/) (Hard)
 * 76\. [**_Minimum Window Substring_**](https://leetcode.com/problems/minimum-window-substring/) _(Hard)_
 * 125\. [**_Valid Palindrome_**](https://leetcode.com/problems/valid-palindrome/) _(Easy)_
