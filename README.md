@@ -60,6 +60,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 1094\. [Car Pooling](https://leetcode.com/problems/car-pooling/) (Medium)
 * 1109\. [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) (Medium)
 * 1470\. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (Easy)
+* 2444\. [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) (Hard)
 
 **Matrix:**
 * 48\. [**_Rotate Image_**](https://leetcode.com/problems/rotate-image/) _(Medium)_
