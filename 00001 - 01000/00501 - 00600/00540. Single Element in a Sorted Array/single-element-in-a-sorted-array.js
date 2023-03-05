@@ -7,6 +7,30 @@
  * @return {number}
  */
 const singleNonDuplicate = (nums) => {
+	let left = 0, right = (nums.length >> 1) + 1;
+
+	while (left < right - 1) {
+		const mid = (left + right) >>> 1;
+
+        if (nums[mid * 2 - 1] !== nums[mid * 2]) {
+            left = mid;
+        } else {
+            right = mid;
+        }
+	}
+
+	return nums[left * 2];
+};
+
+/* =========================================================
+=       Solution 2. binary search [,]: O(n)                =
+========================================================= */
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+const singleNonDuplicate = (nums) => {
 	let left = 0, right = nums.length - 1;
 
 	while (left < right) {

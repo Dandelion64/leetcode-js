@@ -59,6 +59,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 1011\. [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) (Medium)
 * 1094\. [Car Pooling](https://leetcode.com/problems/car-pooling/) (Medium)
 * 1109\. [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) (Medium)
+* 1345\. [Jump Game IV](https://leetcode.com/problems/jump-game-iv/) (Hard)
 * 1470\. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (Easy)
 * 2444\. [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) (Hard)
 
