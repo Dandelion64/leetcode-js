@@ -61,6 +61,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 1109\. [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) (Medium)
 * 1345\. [Jump Game IV](https://leetcode.com/problems/jump-game-iv/) (Hard)
 * 1470\. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) (Easy)
+* 1539\. [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) (Easy)
 * 2444\. [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) (Hard)
 
 **Matrix:**
