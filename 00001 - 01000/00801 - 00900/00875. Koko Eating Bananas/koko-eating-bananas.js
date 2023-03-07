@@ -1,5 +1,5 @@
 /* =========================================================
-=       Solution 1. binary search <[,]>: O(n log m)        =
+=       Solution 1. binary search [,]: O(n log m)          =
 ========================================================= */
 
 /**
@@ -27,7 +27,7 @@ const minEatingSpeed = (piles, h) => {
 	let lo = 1, hi = Math.max(...piles), mid;
 
 	while (lo < hi) {
-		mid = (hi + lo) >>> 1;
+		mid = (lo + hi) >>> 1;
 
 		if (couldEatThemAll(piles, h, mid)) {
 			hi = mid;
@@ -40,7 +40,7 @@ const minEatingSpeed = (piles, h) => {
 };
 
 /* =========================================================
-=       Solution 2. binary search <[,]>: O(n log m)        =
+=       Solution 2. binary search [,]: O(n log m)          =
 ========================================================= */
 
 /**
@@ -69,7 +69,7 @@ const minEatingSpeed = (piles, h) => {
 	let lo = 1, hi = 1000000000 + 1, mid;
 
 	while (lo < hi) {
-		mid = (hi + lo) >>> 1;
+		mid = (lo + hi) >>> 1;
 
 		if (couldEatThemAll(piles, h, mid)) {
 			hi = mid;
