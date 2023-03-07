@@ -11,7 +11,12 @@ const minimumTime = (time, totalTrips) => {
 	let lo = Math.min(...time), hi = totalTrips * lo, mid;
 
 	while (lo < hi) {
-		mid = lo + Math.floor((hi - lo) / 2); // right shift TLE
+		mid = lo + Math.floor((hi - lo) / 2);
+        // right shift TLE
+        // the reason is overflow
+
+        // notice that ~~ is not equal to Math.floor()
+        // Ref: https://codepen.io/supernova_at/post/javascript-s-double-bitwise-not-operator
 
 		let trips = 0;
 
