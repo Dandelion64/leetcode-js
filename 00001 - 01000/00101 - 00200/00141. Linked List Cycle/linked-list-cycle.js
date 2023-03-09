@@ -60,8 +60,8 @@ const hasCycle = (head) => {
 		return false;
 	}
 
-	slow = moveSlow(head);
-	fast = moveFast(head);
+	let slow = moveSlow(head);
+	let fast = moveFast(head);
 
 	if (fast === null) {
 		return false;
