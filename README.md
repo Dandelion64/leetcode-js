@@ -42,9 +42,9 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 34\. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medium)
 * 35\. [Search Insert Position](https://leetcode.com/problems/search-insert-position/) (Easy)
 * 45\. [Jump Game II](https://leetcode.com/problems/jump-game-ii/) (Medium)
+* 49\. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) (Medium)
 * 55\. [**_Jump Game_**](https://leetcode.com/problems/jump-game) _(Medium)_
 * 167\. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medium)
-* 238\. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (Medium)
 * 283\. [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (Easy)
 * 344\. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
 * 347\. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) (Medium)
@@ -95,9 +95,11 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 1523\. [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) (Easy)
 
 **Prefix Sum:**
+* 238\. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (Medium)
 * 303\. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (Easy)
 * 304\. [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) (Medium)
 * 528\. [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) (Medium)
+* 560\. [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) (Medium)
 
 **Sort:**
 * 315\. [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) (Hard)
