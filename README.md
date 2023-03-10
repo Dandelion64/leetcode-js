@@ -101,6 +101,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 304\. [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) (Medium)
 * 528\. [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) (Medium)
 * 560\. [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) (Medium)
+* 1943\. [Describe the Painting](https://leetcode.com/problems/describe-the-painting/) (Medium)
 
 **Sort:**
 * 315\. [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) (Hard)
