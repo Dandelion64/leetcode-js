@@ -87,6 +87,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 160\. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) (Easy)
 * 206\. [**_Reverse Linked List_**](https://leetcode.com/problems/reverse-linked-list/) _(Easy)_
 * 234\. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) (Easy)
+* 382\. [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) (Medium)
 * 876\. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)
 
 **Math:**
