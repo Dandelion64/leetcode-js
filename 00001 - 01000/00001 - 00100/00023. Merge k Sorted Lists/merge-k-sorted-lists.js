@@ -11,22 +11,6 @@
 ========================================================= */
 
 /**
- * @param {ListNode} node
- * @return {ListNode}
- */
-const movePointer = (node) => {
-	return node.next;
-};
-
-/**
- * @param {ListNode} node
- * @return {ListNode}
- */
-const appendNode = (node1, node2) => {
-	node1.next = node2;
-};
-
-/**
  * @param {ListNode[]} lists
  * @param {number} left
  * @param {number} right
@@ -57,14 +41,14 @@ const mergeTwo = (list1, list2) => {
 
 	while (list1 && list2) {
 		if (list1.val <= list2.val) {
-			appendNode(cur, list1);
-			list1 = movePointer(list1);
+			cur.next = list1;
+			list1 = list1.next;
 		} else {
-			appendNode(cur, list2);
-			list2 = movePointer(list2);
+			cur.next = list2;
+			list2 = list2.next;
 		}
 
-		cur = movePointer(cur);
+		cur = cur.next;
 	}
 
 	cur.next = list1 || list2;
