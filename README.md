@@ -141,6 +141,9 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 703\. [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) (Easy)
 * 1046\. [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (Easy)
 
+**Monotonic Queue:**
+* 239\. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) (Hard)
+
 **Breadth-First-Search (BFS):**
 * 111\. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (Easy)
 * 752\. [Open the Lock](https://leetcode.com/problems/open-the-lock/) (Medium)
