@@ -110,6 +110,7 @@ Source: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * 912\. [Sort an Array](https://leetcode.com/problems/sort-an-array/) (Medium)
 
 **Tree:**
+* 101\. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) (Easy)
 * 102\. [**_Binary Tree Level Order Traversal_**](https://leetcode.com/problems/binary-tree-level-order-traversal/) _(Medium)_
 * 103\. [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medium)
 * 104\. [**_Maximum Depth of Binary Tree_**](https://leetcode.com/problems/maximum-depth-of-binary-tree/) _(Easy)_
